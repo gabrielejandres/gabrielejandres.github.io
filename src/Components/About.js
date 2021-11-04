@@ -9,6 +9,20 @@ class About extends Component {
     const bio = this.props.data.bio;
     const email = this.props.data.email;
     const phone = this.props.data.phone;
+
+    const networks = this.props.data.social.map(function (network) {
+      return (
+        <li key={network.name}>
+            <a href={network.url}>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span className={network.className} aria-hidden="true"></span>
+            </a>
+        </li>
+      );
+    });
     // const resumeDownload = this.props.data.resumedownload;
 
     return (
@@ -38,24 +52,7 @@ class About extends Component {
                 <div className="columns download">
                   <div className="icons">
                     <ul>
-                      <li>
-                          <a href="mailto:gabrielejc@dcc.ufrj.br">
-                              <span></span>
-                              <span></span>
-                              <span></span>
-                              <span></span>
-                              <span class="fa fa-envelope" aria-hidden="true"></span>
-                          </a>
-                      </li>
-                      <li>
-                          <a href="https://www.linkedin.com/in/gabriele-jandres-249107175/">
-                              <span></span>
-                              <span></span>
-                              <span></span>
-                              <span></span>
-                              <span class="fa fa-linkedin" aria-hidden="true"></span>
-                          </a>
-                      </li>
+                      {networks}
                     </ul>
                   </div>
                 </div>

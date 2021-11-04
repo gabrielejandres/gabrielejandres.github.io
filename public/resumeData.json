@@ -8,7 +8,6 @@
     "phone": "+55 22 98825-4354",
     "github":"https://github.com/gabrielejandres",
     "behance": "https://www.behance.net/gabrielejandres",
-    "resumedownload":"../../public/images/img.jpg",
     "social":[
       {
         "name":"email",
@@ -24,148 +23,195 @@
         "name":"instagram",
         "url":"https://www.instagram.com/codegabs/",
         "className":"fa fa-instagram"
-      },
-      {
-        "name":"github",
-        "url":"https://github.com/gabrielejandres",
-        "className":"fa fa-github"
       }
     ]
   },
   "resume":{
-    "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
     "education":[
       {
-        "school":"University?",
-        "degree":"Masters in Beer tasting",
-        "graduated":"April 2017",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "school":"Universidade Federal do Rio de Janeiro",
+        "degree":"Bacharelado em Ciência da Computação",
+        "graduated":"2019.2 - 2023.2 (cursando)",
+        "description": ["Monitoria na área de números inteiros e criptografia", "Participação do Hacking Help 2020 como UX Designer", "Monitoria na área de computadores e sociedade"]
       },
       {
-        "school":"School #1 Maybe College?",
-        "degree":"What did you study 101",
-        "graduated":"March 2013",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "school":"Centro Federal de Educação Tecnológica Celso Suckow da Fonseca",
+        "degree":"Ensino médio integrado ao técnico em informática",
+        "graduated":"2016 - 2018",
+        "description":  ["Recebimento de menção honrosa na OBMEP em 2016", "Participação no Hacking Serra (Cluster Turismo) em 2018"]
       }
     ],
     "work":[
       {
-        "company":"Awesome Design Studio",
-        "title":"Senior UX God ",
-        "years":"March 2018 - Present",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "company":"Bemobi",
+        "title":"Estagiária de desenvolvimento",
+        "years":"Agosto 2021 - Presente",
+        "description": ["Desenvolvimento front-end usando React JS, HTML, CSS e Javascript", "Aprendiz de back-end usando Go"]
       },
       {
-        "company":"Super Cool Studio",
-        "title":"Junior bug fixer",
-        "years":"March 2017 - February 2018",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "company":"EJCM Consultoria",
+        "title":"Tech Lead",
+        "years":"Agosto 2020 - Novembro 2021",
+        "description": ["Análise de prototipagens e testes de usabilidade", "Liderança de equipe ágil", "Gerenciamento e revisão de sprints (metodologia scrum)", "Liderança de iniciativa sobre UX Design e Concepção Digital", "Liderança de iniciativa de mudança de stack para React", "Deploy de aplicações"]
+      },
+      {
+        "company":"EJCM Consultoria",
+        "ignoreCompany": true,
+        "title":"Desenvolvedora front-end",
+        "years":"Março 2020 - Agosto 2020",
+        "description": ["Prototipagem de telas no Figma", "Desenvolvimento de sistemas usando Ionic, Angular e Laravel", "Participação na organização do treinamento técnico do processo seletivo"]
+      },
+      {
+        "company":"CEFET",
+        "title":"Estagiária de desenvolvimento web",
+        "years":"Fevereiro 2018 - Setembro 2018",
+        "description": ["Desenvolvimento front-end (HTML, CSS e JavaScript) e back-end(PHP) do projeto 'Namelab - Novos Ambientes Educacionais'"]
       }
     ],
-    "skills":[
+    "extra":[
       {
-        "name":"Python",
-        "level":"60%"
+        "title":"Instrutora de UX Design",
+        "dispatcher":"EJCM Consultoria",
+        "date":"Outubro 2021",
+        "credential": "https://drive.google.com/file/d/1kuH_vmJvUUCdsK82TFiDAq4oi8fA1KU0/view?usp=sharing"
       },
       {
-        "name":"VueJs",
-        "level":"55%"
+        "title":"Bootcamp UX Design",
+        "dispatcher":"How Bootcamps",
+        "date":"Agosto 2020",
+        "credential": "https://drive.google.com/file/d/1nWzmcbc49coiKBSmqx8zxAg6Dh6YOoqG/view?usp=sharing"
       },
       {
-        "name":"ReactJs",
-        "level":"50%"
+        "title":"Front-end Web Development with React",
+        "dispatcher":"The Hong Kong University of Science and Technology",
+        "date":"Julho 2020",
+        "credential": "https://drive.google.com/file/d/13MM2HhCFgGGYRj_9JCvHKvlhS_BZTgdL/view?usp=sharing"
       },
       {
-        "name":"CSS",
-        "level":"90%"
+        "title":"Visual Elements of User Interface Design",
+        "dispatcher":"California Institute of the Arts",
+        "date":"Julho 2020",
+        "credential": "https://drive.google.com/file/d/1CCpipAdFJvhsrw7XdEkd6_eEBnFjhCW_/view?usp=sharing"
       },
       {
-        "name":"PHP",
-        "level":"80%"
-      },
-      {
-        "name":"Swift",
-        "level":"50%"
-      },
-      {
-        "name":"JAVA",
-        "level":"80%"
+        "title":"Front-end Web Frameworks and Tools: Bootstrap 4",
+        "dispatcher":"The Hong Kong University of Science and Technology",
+        "date":"Maio 2020",
+        "credential": "https://drive.google.com/file/d/1VFgMcB7rMw-dim9Yci5IbsgIUdhz4d4k/view?usp=sharing"
       }
     ]
   },
+  "skills":[
+    {
+      "name":"CSS",
+      "image": "images/skills/css.png",
+      "description":"Cascading Style Sheet"
+    },
+    {
+      "name":"HTML",
+      "image": "images/skills/html.jpg",
+      "description":"HyperText Markup Lang"
+    },
+    {
+      "name":"PHP",
+      "image": "images/skills/php.png",
+      "description":"Ling. de programação"
+    },
+    {
+      "name":"Javascript",
+      "image": "images/skills/js.png",
+      "description":"Ling. de programação"
+    },
+    {
+      "name":"Java",
+      "image": "images/skills/java.png",
+      "description":"Ling. de programação"
+    },
+    {
+      "name":"Python",
+      "image": "images/skills/python.png",
+      "description":"Ling. de programação"
+    },
+    {
+      "name":"React JS",
+      "image": "images/skills/react.png",
+      "description":"Biblioteca front-end"
+    },
+    {
+      "name":"React Native",
+      "image": "images/skills/react-native.png",
+      "description":"Biblioteca mobile"
+    },
+    {
+      "name":"Laravel",
+      "image": "images/skills/laravel.png",
+      "description":"Framework back-end"
+    },
+    {
+      "name":"Angular",
+      "image": "image/skills/angular.png",
+      "description":"Framework front-end"
+    },
+    {
+      "name":"VueJs",
+      "image": "image/skills/vue.png",
+      "description":"Framework front-end"
+    },
+    {
+      "name":"Ionic",
+      "image": "image/skills/ionic.png",
+      "description":"Framework mobile"
+    }
+  ],
   "portfolio":{
     "projects": [
       {
-        "title":"Canadian Wanderlust",
-        "category":"My Travel Blog for my post-university travels",
-        "image":"01.jpg",
-        "url":"https://www.canadianwanderlust.com"
+        "title":"Hommy",
+        "category":"apps",
+        "image":"apps/hommy.png",
+        "url":"https://github.com/gabrielejandres/hommy"
       },
       {
-        "title":"Fury Fighting Gear",
-        "category":"(offline now) A fighting gear company I started",
-        "image":"02.jpg",
-        "url":"http://www.timbakerdev.com"
+        "title":"My Favorites Heroes",
+        "category":"apps",
+        "image":"apps/my-favorites-heroes.png",
+        "url":"https://github.com/gabrielejandres/my-favorites-heroes-app"
       },
       {
-        "title":"Original Thai Food",
-        "category":"Website I built for a restaurant I like in Thailand",
-        "image":"03.jpg",
-        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
+        "title":"FriendFlix",
+        "category":"ui",
+        "image":"ui/friendflix.png",
+        "url":"https://www.behance.net/gallery/115089149/FriendFlix"
       },
       {
-        "title":"Resume Website",
-        "category":"A React based resume website template",
-        "image":"04.jpg",
-        "url":"http://www.timbakerdev.com"
+        "title":"Healthood",
+        "category":"ui",
+        "image":"ui/healthood.png",
+        "url":"https://www.behance.net/gallery/115091415/Healthood"
       },
       {
-        "title":"Smirkspace",
-        "category":"(MVP Only) A React and Meteor based chat University project.",
-        "image":"05.jpg",
-        "url":"http://www.smirkspace.com"
+        "title":"Hommy (Protótipo)",
+        "category":"ui",
+        "image":"ui/hommy.png",
+        "url":"https://www.behance.net/gallery/115090037/Hommy"
       },
       {
-        "title":"Canadian Wanderlust",
-        "category":"My Travel Blog for my post-university travels",
-        "image":"06.jpg",
-        "url":"https://www.canadianwanderlust.com"
+        "title":"MicroMarket",
+        "category":"ui",
+        "image":"ui/micromarket.png",
+        "url":"https://www.figma.com/file/D7wto7wa98PGxXbZTvqMsp/MicroMarket"
       },
       {
-        "title":"Fury Fighting Gear",
-        "category":"(offline now) A fighting gear company I started",
-        "image":"01.jpg",
-        "url":"http://www.timbakerdev.com"
+        "title":"RevisAí",
+        "category":"ui",
+        "image":"ui/revisai.jpg",
+        "url":"https://www.figma.com/file/DT2uNHOeznBW8ofqC51wd7/RevisA%C3%AD"
       },
       {
-        "title":"Original Thai Food",
-        "category":"Website I built for a restaurant I like in Thailand",
-        "image":"02.jpg",
-        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
-      },
-      {
-        "title":"Original Thai Food",
-        "category":"Website I built for a restaurant I like in Thailand",
-        "image":"03.jpg",
-        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
-      },
-      {
-        "title":"Resume Website",
-        "category":"A React based resume website template",
-        "image":"04.jpg",
-        "url":"http://www.timbakerdev.com"
-      },
-      {
-        "title":"Smirkspace",
-        "category":"(MVP Only) A React and Meteor based chat University project.",
-        "image":"05.jpg",
-        "url":"http://www.smirkspace.com"
-      },
-      {
-        "title":"Canadian Wanderlust",
-        "category":"My Travel Blog for my post-university travels",
-        "image":"06.jpg",
-        "url":"https://www.canadianwanderlust.com"
+        "title":"Daily UI",
+        "category":"ui",
+        "image":"ui/dailyui.jpg",
+        "url":"https://www.behance.net/gallery/115168171/Daily-UI-001"
       }
     ]
   }

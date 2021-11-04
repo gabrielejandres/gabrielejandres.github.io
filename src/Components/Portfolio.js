@@ -12,10 +12,12 @@ class Portfolio extends Component {
 
       return (
         <div key={id++} className="columns portfolio-item">
-          <div className="item-wrap">
-            <Zmage alt={projects.title} src={projectImage} />
-            <div style={{ textAlign: "center" }}>{projects.title}</div>
-          </div>
+          <a href={projects.url}>
+            <div className="item-wrap">
+              <Zmage alt={projects.title} src={projectImage} />
+              <div style={{ textAlign: "center" }}>{projects.title}</div>
+            </div>
+          </a>
         </div>
       );
     });
@@ -25,7 +27,7 @@ class Portfolio extends Component {
         <Fade left duration={1000} distance="40px">
           <div className="row">
             <div className="twelve columns collapsed">
-              <h1>Confira alguns dos projetos que já desenvolvi: </h1>
+              <h1>Alguns dos projetos que já desenvolvi</h1>
 
               <div
                 id="portfolio-wrapper"
