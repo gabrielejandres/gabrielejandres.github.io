@@ -1,0 +1,218 @@
+{
+  "main": {
+    "name":"Gabriele Jandres",
+    "description":"Graduanda em Ciência da Computação na UFRJ e desenvolvedora front-end",
+    "image":"profilepic.jpg",
+    "bio":" Fiz curso de informática no CEFET durante meu ensino médio e foi esse o principal motivo do início da minha paixão por tecnologia. Atualmente, sou aluna de Ciência da Computação na UFRJ, e embora descubra a cada dia mais vertentes da computação, o mundo do desenvolvimento web me encanta. Sou apaixonada por desenvolvimento front-end, mas também tenho muito interesse e procuro aprender sobre a área de UI e UX Design.",
+    "email": "gabrielejc@dcc.ufrj.br",
+    "phone": "+55 22 98825-4354",
+    "github":"https://github.com/gabrielejandres",
+    "behance": "https://www.behance.net/gabrielejandres",
+    "social":[
+      {
+        "name":"email",
+        "url":"mailto:gabrielejc@dcc.ufrj.br",
+        "className":"fa fa-envelope"
+      },
+      {
+        "name":"linkedin",
+        "url":"https://www.linkedin.com/in/gabriele-jandres-249107175/",
+        "className":"fa fa-linkedin"
+      },
+      {
+        "name":"instagram",
+        "url":"https://www.instagram.com/codegabs/",
+        "className":"fa fa-instagram"
+      }
+    ]
+  },
+  "resume":{
+    "education":[
+      {
+        "school":"Universidade Federal do Rio de Janeiro",
+        "degree":"Bacharelado em Ciência da Computação",
+        "graduated":"2019.2 - 2023.2 (cursando)",
+        "description": ["Monitoria na área de números inteiros e criptografia", "Participação do Hacking Help 2020 como UX Designer", "Monitoria na área de computadores e sociedade"]
+      },
+      {
+        "school":"Centro Federal de Educação Tecnológica Celso Suckow da Fonseca",
+        "degree":"Ensino médio integrado ao técnico em informática",
+        "graduated":"2016 - 2018",
+        "description":  ["Recebimento de menção honrosa na OBMEP em 2016", "Participação no Hacking Serra (Cluster Turismo) em 2018"]
+      }
+    ],
+    "work":[
+      {
+        "company":"Bemobi",
+        "title":"Estagiária de desenvolvimento",
+        "years":"Agosto 2021 - Presente",
+        "description": ["Desenvolvimento front-end usando React JS, HTML, CSS e Javascript", "Desenvolvimento back-end usando Go"]
+      },
+      {
+        "company":"EJCM Consultoria",
+        "title":"Tech Lead",
+        "years":"Agosto 2020 - Novembro 2021",
+        "description": ["Análise de prototipagens e testes de usabilidade", "Liderança de equipe ágil", "Gerenciamento e revisão de sprints (metodologia scrum)", "Liderança de iniciativa sobre UX Design e Concepção Digital", "Liderança de iniciativa de mudança de stack para React", "Deploy de aplicações"]
+      },
+      {
+        "company":"EJCM Consultoria",
+        "ignoreCompany": true,
+        "title":"Desenvolvedora front-end",
+        "years":"Março 2020 - Agosto 2020",
+        "description": ["Prototipagem de telas no Figma", "Desenvolvimento de sistemas usando Ionic, Angular e Laravel", "Participação na organização do treinamento técnico do processo seletivo"]
+      },
+      {
+        "company":"CEFET",
+        "title":"Estagiária de desenvolvimento web",
+        "years":"Fevereiro 2018 - Setembro 2018",
+        "description": ["Desenvolvimento front-end (HTML, CSS e JavaScript) e back-end(PHP) do projeto 'Namelab - Novos Ambientes Educacionais'"]
+      }
+    ],
+    "extra":[
+      {
+        "title":"Instrutora de UX Design",
+        "dispatcher":"EJCM Consultoria",
+        "date":"Outubro 2021",
+        "credential": "https://drive.google.com/file/d/1kuH_vmJvUUCdsK82TFiDAq4oi8fA1KU0/view?usp=sharing"
+      },
+      {
+        "title":"Bootcamp UX Design",
+        "dispatcher":"How Bootcamps",
+        "date":"Agosto 2020",
+        "credential": "https://drive.google.com/file/d/1nWzmcbc49coiKBSmqx8zxAg6Dh6YOoqG/view?usp=sharing"
+      },
+      {
+        "title":"Front-end Web Development with React",
+        "dispatcher":"The Hong Kong University of Science and Technology",
+        "date":"Julho 2020",
+        "credential": "https://drive.google.com/file/d/13MM2HhCFgGGYRj_9JCvHKvlhS_BZTgdL/view?usp=sharing"
+      },
+      {
+        "title":"Visual Elements of User Interface Design",
+        "dispatcher":"California Institute of the Arts",
+        "date":"Julho 2020",
+        "credential": "https://drive.google.com/file/d/1CCpipAdFJvhsrw7XdEkd6_eEBnFjhCW_/view?usp=sharing"
+      },
+      {
+        "title":"Front-end Web Frameworks and Tools: Bootstrap 4",
+        "dispatcher":"The Hong Kong University of Science and Technology",
+        "date":"Maio 2020",
+        "credential": "https://drive.google.com/file/d/1VFgMcB7rMw-dim9Yci5IbsgIUdhz4d4k/view?usp=sharing"
+      }
+    ]
+  },
+  "skills":[
+    {
+      "name":"CSS",
+      "image": "images/skills/css.png",
+      "description":"Cascading Style Sheet"
+    },
+    {
+      "name":"HTML",
+      "image": "images/skills/html.jpg",
+      "description":"HyperText Markup Lang"
+    },
+    {
+      "name":"PHP",
+      "image": "images/skills/php.png",
+      "description":"Ling. de programação"
+    },
+    {
+      "name":"Javascript",
+      "image": "images/skills/js.png",
+      "description":"Ling. de programação"
+    },
+    {
+      "name":"Java",
+      "image": "images/skills/java.png",
+      "description":"Ling. de programação"
+    },
+    {
+      "name":"Python",
+      "image": "images/skills/python.jpg",
+      "description":"Ling. de programação"
+    },
+    {
+      "name":"React JS",
+      "image": "images/skills/react.png",
+      "description":"Biblioteca front-end"
+    },
+    {
+      "name":"React Native",
+      "image": "images/skills/react.png",
+      "description":"Biblioteca mobile"
+    },
+    {
+      "name":"Laravel",
+      "image": "images/skills/laravel.png",
+      "description":"Framework back-end"
+    },
+    {
+      "name":"Angular",
+      "image": "images/skills/angular.png",
+      "description":"Framework front-end"
+    },
+    {
+      "name":"VueJs",
+      "image": "images/skills/vue.png",
+      "description":"Framework front-end"
+    },
+    {
+      "name":"Ionic",
+      "image": "images/skills/ionic.png",
+      "description":"Framework mobile"
+    }
+  ],
+  "portfolio":{
+    "projects": [
+      {
+        "title":"Hommy",
+        "category":"apps",
+        "image":"apps/hommy.png",
+        "url":"https://github.com/gabrielejandres/hommy"
+      },
+      {
+        "title":"My Favorites Heroes",
+        "category":"apps",
+        "image":"apps/my-favorites-heroes.png",
+        "url":"https://github.com/gabrielejandres/my-favorites-heroes-app"
+      },
+      {
+        "title":"FriendFlix",
+        "category":"ui",
+        "image":"ui/friendflix.png",
+        "url":"https://www.behance.net/gallery/115089149/FriendFlix"
+      },
+      {
+        "title":"Healthood",
+        "category":"ui",
+        "image":"ui/healthood.png",
+        "url":"https://www.behance.net/gallery/115091415/Healthood"
+      },
+      {
+        "title":"Hommy (Protótipo)",
+        "category":"ui",
+        "image":"ui/hommy.png",
+        "url":"https://www.behance.net/gallery/115090037/Hommy"
+      },
+      {
+        "title":"MicroMarket",
+        "category":"ui",
+        "image":"ui/micromarket.png",
+        "url":"https://www.figma.com/file/D7wto7wa98PGxXbZTvqMsp/MicroMarket"
+      },
+      {
+        "title":"RevisAí",
+        "category":"ui",
+        "image":"ui/revisai.jpg",
+        "url":"https://www.figma.com/file/DT2uNHOeznBW8ofqC51wd7/RevisA%C3%AD"
+      },
+      {
+        "title":"Daily UI",
+        "category":"ui",
+        "image":"ui/dailyui.jpg",
+        "url":"https://www.behance.net/gallery/115168171/Daily-UI-001"
+      }
+    ]
+  }
+}
