@@ -20,10 +20,10 @@ class Header extends Component {
       tha: [-40, 40],
       alpha: [0.6, 0],
       scale: [1, 0.1],
-      position: 'center',
-      cross: 'dead',
+      position: "center",
+      cross: "dead",
       random: 15,
-      type: 'cobweb',
+      type: "cobweb",
       g: 5,
       onParticleUpdate: (ctx, particle) => {
         ctx.beginPath();
@@ -41,7 +41,13 @@ class Header extends Component {
 
     return (
       <header id="home">
-        <ParticlesBg num={40} color="#ff6960" config={config} type="cobweb" bg={true} />
+        <ParticlesBg
+          num={40}
+          color="#ff6960"
+          config={config}
+          type="cobweb"
+          bg={true}
+        />
 
         <nav id="nav-wrap">
           <a className="mobile-btn" href="#nav-wrap" title="Show navigation">

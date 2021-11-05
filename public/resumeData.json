@@ -46,7 +46,7 @@
         "company":"Bemobi",
         "title":"Estagiária de desenvolvimento",
         "years":"Agosto 2021 - Presente",
-        "description": ["Desenvolvimento front-end usando React JS, HTML, CSS e Javascript", "Aprendiz de back-end usando Go"]
+        "description": ["Desenvolvimento front-end usando React JS, HTML, CSS e Javascript", "Desenvolvimento back-end usando Go"]
       },
       {
         "company":"EJCM Consultoria",
@@ -129,7 +129,7 @@
     },
     {
       "name":"Python",
-      "image": "images/skills/python.png",
+      "image": "images/skills/python.jpg",
       "description":"Ling. de programação"
     },
     {
@@ -139,7 +139,7 @@
     },
     {
       "name":"React Native",
-      "image": "images/skills/react-native.png",
+      "image": "images/skills/react.png",
       "description":"Biblioteca mobile"
     },
     {
@@ -149,17 +149,17 @@
     },
     {
       "name":"Angular",
-      "image": "image/skills/angular.png",
+      "image": "images/skills/angular.png",
       "description":"Framework front-end"
     },
     {
       "name":"VueJs",
-      "image": "image/skills/vue.png",
+      "image": "images/skills/vue.png",
       "description":"Framework front-end"
     },
     {
       "name":"Ionic",
-      "image": "image/skills/ionic.png",
+      "image": "images/skills/ionic.png",
       "description":"Framework mobile"
     }
   ],

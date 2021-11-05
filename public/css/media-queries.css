@@ -1,10 +1,8 @@
-/* ==================================================================
-
-*   Ceevee Media Queries
-*   url: styleshout.com
-*   03-18-2014
-
-/* ================================================================== */
+:root {
+  --main-color: #ff6960;
+  --main-light-color: #ffffff;
+  --main-neutral-color: #333333;
+}
 
 /* screenwidth less than 1024px
 --------------------------------------------------------------------- */
@@ -31,7 +29,7 @@
     letter-spacing: -1px;
   }
   header .banner-text h3 {
-    font: 17px/1.9em "librebaskerville-regular", serif;
+    font: 17px/1.9em "opensans-light", serif;
     width: 80%;
   }
   header .banner-text hr {
@@ -66,37 +64,6 @@
   #resume .main-col {
     padding-right: 5%;
   }
-
-  /* Testimonials Section
-   ------------------------------------------------------------------- */
-  #testimonials .header-col h1:before {
-    font-size: 66px;
-    line-height: 66px;
-  }
-  #testimonials blockquote p {
-    font-size: 22px;
-    line-height: 46px;
-  }
-
-  /* Call to Action Section
-   ------------------------------------------------------------------- */
-  #call-to-action .header-col h1:before {
-    font-size: 66px;
-    line-height: 66px;
-  }
-
-  /* Contact Section
-   ------------------------------------------------------------------- */
-  #contact .section-head {
-    margin-bottom: 30px;
-  }
-  #contact .header-col h1:before {
-    font-size: 66px;
-    line-height: 66px;
-  }
-  #contact .section-head p.lead {
-    font: 17px/33px opensans-light, sans-serif;
-  }
 }
 
 /* mobile wide/smaller tablets
@@ -109,6 +76,10 @@
 
   #tech .cards {
     justify-content: center;
+  }
+
+  #tech .cards:first-child {
+    margin-top: 5vh;
   }
 
   /* mobile navigation
@@ -126,7 +97,7 @@
     width: 48px;
     height: 48px;
     text-align: left;
-    background-color: #ff6960;
+    background-color: var(--main-color);
     position: relative;
     border: none;
     float: right;
@@ -143,7 +114,7 @@
   #nav-wrap > a:before,
   #nav-wrap > a:after {
     position: absolute;
-    border: 2px solid #fff;
+    border: 2px solid var(--main-light-color);
     top: 35%;
     left: 25%;
     right: 25%;
@@ -210,7 +181,7 @@
     font: 68px/1.1em "opensans-bold", sans-serif;
   }
   header .banner-text h3 {
-    font: 16px/1.9em "librebaskerville-regular", serif;
+    font: 16px/1.9em "opensans-light", serif;
     width: 85%;
   }
   header .banner-text hr {
@@ -265,31 +236,6 @@
     text-align: center;
   }
 
-  .bars {
-    width: 100%;
-  }
-
-  /* Call To Action Section
-   /* ----------------------------------------------------------------- */
-  #call-to-action {
-    text-align: center;
-  }
-  #call-to-action h1 {
-    font: 16px/24px "opensans-bold", sans-serif;
-    text-align: center;
-    margin-bottom: 30px;
-    text-shadow: 0px 1px 3px rgba(0, 0, 0, 1);
-  }
-  #call-to-action h1 span {
-    display: block;
-  }
-  #call-to-action .header-col h1:before {
-    content: none;
-  }
-  #call-to-action p {
-    font-size: 15px;
-  }
-
   /* Portfolio Section
    /* ----------------------------------------------------------------- */
   #portfolio-wrapper .columns {
@@ -305,53 +251,6 @@
     margin-left: -30px;
   }
 
-  /* contact Section
-   ----------------------------------------------------------------------- */
-  #contact {
-    padding-bottom: 66px;
-  }
-  #contact .section-head {
-    margin-bottom: 12px;
-  }
-  #contact .section-head h1 {
-    font: 16px/24px "opensans-bold", sans-serif;
-    text-align: center;
-    margin-bottom: 30px;
-    text-shadow: 0px 1px 3px rgba(0, 0, 0, 1);
-  }
-  #contact h1 span {
-    display: block;
-  }
-  #contact .header-col {
-    padding-top: 0;
-  }
-  #contact .header-col h1:before {
-    content: none;
-  }
-  #contact .section-head p.lead {
-    text-align: center;
-  }
-
-  /* form */
-  #contact label {
-    float: none;
-    width: 100%;
-  }
-  #contact input,
-  #contact textarea,
-  #contact select {
-    margin-bottom: 6px;
-    width: 100%;
-  }
-  #contact button.submit {
-    margin: 30px 0 24px 0;
-  }
-  #message-warning,
-  #message-success {
-    width: 100%;
-    margin-left: 0;
-  }
-
   /* footer
    ------------------------------------------------------------------------ */
 
@@ -361,14 +260,6 @@
   }
   footer .copyright li {
     margin-right: 12px;
-  }
-
-  /* social links */
-  footer .social-links {
-    font-size: 22px;
-  }
-  footer .social-links li {
-    margin-left: 18px;
   }
 
   /* Go To Top Button */
@@ -386,6 +277,10 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+
+  #tech h1 {
+    text-align: center;
   }
 }
 
@@ -410,7 +305,7 @@
     margin: 0 auto 24px auto;
   }
   header .banner-text h3 {
-    font: 14px/1.9em "librebaskerville-regular", sans-serif;
+    font: 14px/1.9em "opensans-light", serif;
     width: 90%;
   }
 
@@ -424,15 +319,6 @@
 
   /* footer
    ------------------------------------------------------------------------ */
-
-  /* social links */
-  footer .social-links {
-    font-size: 20px;
-  }
-  footer .social-links li {
-    margin-left: 14px;
-  }
-
   .icons {
     display: none;
   }
@@ -445,5 +331,19 @@
 
   #tech .cards {
     justify-content: center;
+  }
+
+  #tech h1 {
+    text-align: center;
+  }
+
+  .social {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .social .btn:first-child,
+  .social .btn {
+    margin-right: 20px;
   }
 }

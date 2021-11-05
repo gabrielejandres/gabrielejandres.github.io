@@ -13,17 +13,16 @@ class About extends Component {
     const networks = this.props.data.social.map(function (network) {
       return (
         <li key={network.name}>
-            <a href={network.url}>
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-                <span className={network.className} aria-hidden="true"></span>
-            </a>
+          <a href={network.url}>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span className={network.className} aria-hidden="true"></span>
+          </a>
         </li>
       );
     });
-    // const resumeDownload = this.props.data.resumedownload;
 
     return (
       <section id="about">
@@ -45,15 +44,13 @@ class About extends Component {
                   <h2>Contato</h2>
                   <p className="address">
                     <span>{email}</span>
-                    <br/>
+                    <br />
                     <span>{phone}</span>
                   </p>
                 </div>
                 <div className="columns download">
                   <div className="icons">
-                    <ul>
-                      {networks}
-                    </ul>
+                    <ul>{networks}</ul>
                   </div>
                 </div>
               </div>

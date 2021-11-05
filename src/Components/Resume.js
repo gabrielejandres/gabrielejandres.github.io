@@ -15,9 +15,7 @@ class Resume extends Component {
           </p>
           <ul className="activities-list">
             {education.description.map((item) => {
-              return (
-                <li>{item}</li>
-              )
+              return <li>{item}</li>;
             })}
           </ul>
         </div>
@@ -34,9 +32,7 @@ class Resume extends Component {
           </p>
           <ul className="activities-list">
             {work.description.map((item) => {
-              return (
-                <li>{item}</li>
-              )
+              return <li>{item}</li>;
             })}
           </ul>
         </div>
