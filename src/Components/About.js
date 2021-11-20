@@ -8,7 +8,6 @@ class About extends Component {
     const profilepic = "images/" + this.props.data.image;
     const bio = this.props.data.bio;
     const email = this.props.data.email;
-    const phone = this.props.data.phone;
 
     const networks = this.props.data.social.map(function (network) {
       return (
@@ -44,8 +43,6 @@ class About extends Component {
                   <h2>Contato</h2>
                   <p className="address">
                     <span>{email}</span>
-                    <br />
-                    <span>{phone}</span>
                   </p>
                 </div>
                 <div className="columns download">

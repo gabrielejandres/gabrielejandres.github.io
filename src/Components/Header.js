@@ -43,7 +43,7 @@ class Header extends Component {
       <header id="home">
         <ParticlesBg
           num={40}
-          color="#ff6960"
+          color="#8836C9"
           config={config}
           type="cobweb"
           bg={true}
