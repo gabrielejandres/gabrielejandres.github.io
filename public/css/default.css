@@ -19,10 +19,10 @@ e. Others
 /* ------------------------------------------------------------------ */
 /* a. Webfonts and Icon fonts
  ------------------------------------------------------------------ */
-
-@import url("fonts.css");
+ 
 @import url("fontello/css/fontello.css");
 @import url("font-awesome/css/font-awesome.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800;900&display=swap');
 
 /* ------------------------------------------------------------------
 /* b. Reset
@@ -32,8 +32,8 @@ e. Others
 /* ------------------------------------------------------------------ */
 
 :root {
-  --main-color: #8836C9;
-  --main-light-color: #ffffff;
+  --color-brand-primary: #8836C9;
+  --color-neutral-lighest: #F2F2F2;
 }
 
 html,
@@ -159,7 +159,7 @@ pre {
 
 ins {
   background-color: #ff9;
-  color: #000;
+  color: var(--color-brand-primary);;
   text-decoration: none;
 }
 
@@ -206,8 +206,8 @@ html {
 }
 
 body {
-  background: var(--main-light-color);
-  font-family: "opensans-regular", sans-serif;
+  background: var(--color-neutral-lighest);
+  font-family: 'Poppins', sans-serif;
   font-weight: normal;
   font-size: 15px;
   line-height: 30px;
@@ -228,8 +228,8 @@ h4,
 h5,
 h6 {
   color: #313131;
-  font-family: "opensans-bold", sans-serif;
-  font-weight: normal;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
 }
 h1 a,
 h2 a,
@@ -278,18 +278,20 @@ p img {
   margin: 0;
 }
 p.lead {
-  font: 19px/36px "opensans-light", sans-serif;
+  font: 19px/36px 'Poppins', sans-serif;
+  font-weight: light;
   margin-bottom: 18px;
 }
 
 /* for 'em' and 'strong' tags, font-size and line-height should be same with
 the body tag due to rendering problems in some browsers */
 em {
-  font: 15px/30px "opensans-italic", sans-serif;
+  font: 15px/30px 'Poppins', sans-serif;
 }
 strong,
 b {
-  font: 15px/30px "opensans-bold", sans-serif;
+  font: 15px/30px 'Poppins', sans-serif;
+  font-weight: bold;
 }
 small {
   font-size: 11px;
@@ -298,7 +300,8 @@ small {
 
 /* Abbreviations */
 abbr {
-  font-family: "opensans-bold", sans-serif;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
   font-variant: small-caps;
   text-transform: lowercase;
   letter-spacing: 0.5px;
@@ -314,7 +317,8 @@ abbr:hover {
   margin: 0;
   padding: 14px 6px 0 0;
   font-size: 84px;
-  font-family: /* Copperplate */ "opensans-bold", sans-serif;
+  font-family: /* Copperplate */ 'Poppins', sans-serif;
+  font-weight: bold;
   line-height: 60px;
   text-indent: 0;
   background: transparent;
@@ -335,7 +339,7 @@ a,
 a:visited {
   text-decoration: none;
   outline: 0;
-  color: var(--main-color);
+  color: var(--color-brand-primary);
 
   -webkit-transition: color 0.3s ease-in-out;
   -moz-transition: color 0.3s ease-in-out;
@@ -428,18 +432,19 @@ li p {
 .stats-tabs li a {
   display: inline-block;
   font-size: 22px;
-  font-family: "opensans-bold", sans-serif;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
   border: none;
   color: #313131;
 }
 .stats-tabs li a:hover {
-  color: var(--main-color);
+  color: var(--color-brand-primary);
 }
 .stats-tabs li a b {
   display: block;
   margin: 6px 0 0 0;
   font-size: 13px;
-  font-family: "opensans-regular", sans-serif;
+  font-family: 'Poppins', sans-serif;
   color: #8b9798;
 }
 
@@ -449,7 +454,7 @@ dl {
 }
 dt {
   margin: 0;
-  color: var(--main-color);
+  color: var(--color-brand-primary);
 }
 dd {
   margin: 0 0 0 20px;
@@ -502,7 +507,8 @@ dd {
   padding: 0;
 }
 .pagination .page-numbers {
-  font: 15px/18px "opensans-bold", sans-serif;
+  font: 15px/18px 'Poppins', sans-serif;
+  font-weight: bold;
   display: inline-block;
   padding: 6px 10px;
   margin-right: 3px;
@@ -523,12 +529,12 @@ dd {
 }
 .pagination .page-numbers:hover {
   background: #838a91;
-  color: var(--main-light-color);
+  color: var(--color-neutral-lighest);
 }
 .pagination .current,
 .pagination .current:hover {
-  background-color: var(--main-color);
-  color: var(--main-light-color);
+  background-color: var(--color-brand-primary);
+  color: var(--color-neutral-lighest);
 }
 .pagination .inactive,
 .pagination .inactive:hover {
@@ -560,12 +566,13 @@ button,
 input[type="submit"],
 input[type="reset"],
 input[type="button"] {
-  font: 16px/30px "opensans-bold", sans-serif;
-  background: var(--main-color);
+  font: 16px/30px 'Poppins', sans-serif;
+  font-weight: bold;
+  background: var(--color-brand-primary);
   display: inline-block;
   text-decoration: none;
   letter-spacing: 0;
-  color: var(--main-light-color);
+  color: var(--color-neutral-lighest);
   padding: 12px 20px;
   margin-bottom: 18px;
   border: none;
@@ -590,7 +597,7 @@ input[type="submit"]:hover,
 input[type="reset"]:hover,
 input[type="button"]:hover {
   background: #3d4145;
-  color: var(--main-light-color);
+  color: var(--color-neutral-lighest);
 }
 
 .button:active,
@@ -599,7 +606,7 @@ input[type="submit"]:active,
 input[type="reset"]:active,
 input[type="button"]:active {
   background: #3d4145;
-  color: var(--main-light-color);
+  color: var(--color-neutral-lighest);
 }
 
 .button.full-width,
@@ -639,7 +646,6 @@ select {
   margin: 0 0 24px 0;
   border: 0;
   outline: none;
-  vertical-align: middle;
   min-width: 225px;
   max-width: 100%;
   font-size: 15px;
@@ -666,7 +672,8 @@ textarea {
 
 label,
 legend {
-  font: 16px/24px "opensans-bold", sans-serif;
+  font: 16px/24px 'Poppins', sans-serif;
+  font-weight: bold;
   margin: 12px 0;
   color: #3d4145;
   display: block;
@@ -674,7 +681,7 @@ legend {
 label span,
 legend span {
   color: #8b9798;
-  font: 14px/24px "opensans-regular", sans-serif;
+  font: 14px/24px 'Poppins', sans-serif;
 }
 
 input[type="checkbox"],
