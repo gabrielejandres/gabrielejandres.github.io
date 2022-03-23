@@ -2,7 +2,7 @@
   "main": {
     "name":"Gabriele Jandres",
     "description":"Graduanda em Ciência da Computação na UFRJ e desenvolvedora front-end",
-    "image":"profilepic.jpg",
+    "image":"profile.png",
     "bio":" Fiz curso de informática no CEFET durante meu ensino médio e foi esse o principal motivo do início da minha paixão por tecnologia. Atualmente, sou aluna de Ciência da Computação na UFRJ, e embora descubra a cada dia mais vertentes da computação, o mundo do desenvolvimento web me encanta. Sou apaixonada por desenvolvimento front-end, mas também tenho muito interesse e procuro aprender sobre a área de UI e UX Design.",
     "email": "gabrielejc@dcc.ufrj.br",
     "github":"https://github.com/gabrielejandres",
@@ -20,7 +20,7 @@
       },
       {
         "name":"instagram",
-        "url":"https://www.instagram.com/codegabs/",
+        "url":"https://www.instagram.com/gabs.experience/",
         "className":"fa fa-instagram"
       }
     ]
@@ -166,51 +166,63 @@
     "projects": [
       {
         "title":"Hommy",
-        "category":"apps",
+        "category":"App",
         "image":"apps/hommy.png",
         "url":"https://github.com/gabrielejandres/hommy"
       },
       {
         "title":"My Favorites Heroes",
-        "category":"apps",
+        "category":"App",
         "image":"apps/my-favorites-heroes.png",
         "url":"https://github.com/gabrielejandres/my-favorites-heroes-app"
       },
       {
         "title":"FriendFlix",
-        "category":"ui",
+        "category":"UI/UX",
         "image":"ui/friendflix.png",
         "url":"https://www.behance.net/gallery/115089149/FriendFlix"
       },
       {
         "title":"Healthood",
-        "category":"ui",
+        "category":"UI/UX",
         "image":"ui/healthood.png",
         "url":"https://www.behance.net/gallery/115091415/Healthood"
       },
       {
         "title":"Hommy (Protótipo)",
-        "category":"ui",
+        "category":"UI/UX",
         "image":"ui/hommy.png",
         "url":"https://www.behance.net/gallery/115090037/Hommy"
       },
       {
         "title":"MicroMarket",
-        "category":"ui",
+        "category":"UI/UX",
         "image":"ui/micromarket.png",
         "url":"https://www.figma.com/file/D7wto7wa98PGxXbZTvqMsp/MicroMarket"
       },
       {
         "title":"RevisAí",
-        "category":"ui",
+        "category":"UI/UX",
         "image":"ui/revisai.jpg",
-        "url":"https://www.figma.com/file/DT2uNHOeznBW8ofqC51wd7/RevisA%C3%AD"
+        "url":"https://www.behance.net/gallery/115093881/RevisAi"
       },
       {
         "title":"Daily UI",
-        "category":"ui",
+        "category":"UI/UX",
         "image":"ui/dailyui.jpg",
         "url":"https://www.behance.net/gallery/115168171/Daily-UI-001"
+      },
+      {
+        "title":"nutri.me",
+        "category":"UI/UX",
+        "image":"ui/nutri.png",
+        "url":"https://www.behance.net/gallery/140113727/nutrime"
+      },
+      {
+        "title":"Queezy",
+        "category":"Web",
+        "image":"web/queezy.png",
+        "url":"https://www.behance.net/gallery/140116709/Queezy"
       }
     ]
   }
