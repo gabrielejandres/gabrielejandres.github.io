@@ -1,12 +1,12 @@
 import "./App.css";
 import { Suspense } from "react";
 
-import Header from "./Components/Header";
-import Footer from "./Components/Footer";
-import About from "./Components/About";
-import Resume from "./Components/Resume";
-import Tech from "./Components/Tech";
-import Portfolio from "./Components/Portfolio";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import About from "./components/About";
+import Resume from "./components/Resume";
+import Tech from "./components/Tech";
+import Portfolio from "./components/Portfolio";
 
 import data from './assets/data/data.json';
 
@@ -16,7 +16,7 @@ export default function App() {
       <div className="App">
         <Header data={data.main} />
         <About data={data.main} />
-        <Resume data={data.resume} />
+        <Resume />
         <Tech data={data.skills} />
         <Portfolio data={data.portfolio} />
         <Footer />
