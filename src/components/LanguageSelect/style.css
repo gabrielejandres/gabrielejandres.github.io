@@ -1,0 +1,11 @@
+.language-select button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-family: 'Poppins', sans-serif;
+}
+
+.language-select button:hover {
+    opacity: 0.8;
+}

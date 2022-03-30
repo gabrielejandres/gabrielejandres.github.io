@@ -9,6 +9,8 @@ import List from "@material-ui/core/List";
 import ListItem from "@material-ui/core/ListItem";
 import ListSubheader from "@material-ui/core/ListSubheader";
 
+import './style.css';
+
 const languageMap = {
   pt: { label: "Português", dir: "ltr", active: true },
   en: { label: "English", dir: "ltr", active: false }

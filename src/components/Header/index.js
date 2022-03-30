@@ -1,7 +1,9 @@
 import ParticlesBg from "particles-bg";
 import Fade from "react-reveal";
-import LanguageSelect from "./LanguageSelect";
+import LanguageSelect from "../LanguageSelect/index";
 import { useTranslation } from "react-i18next";
+
+import './style.css';
 
 export default function Header(props) {
   const { t } = useTranslation();

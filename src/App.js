@@ -1,14 +1,15 @@
-import "./App.css";
 import { Suspense } from "react";
 
-import Header from "./components/Header";
-import Footer from "./components/Footer";
-import About from "./components/About";
-import Resume from "./components/Resume";
-import Tech from "./components/Tech";
-import Portfolio from "./components/Portfolio";
+import Header from "./components/Header/index";
+import Footer from "./components/Footer/index";
+import About from "./components/About/index";
+import Resume from "./components/Resume/index";
+import Tech from "./components/Tech/index";
+import Portfolio from "./components/Portfolio/index";
 
 import data from './assets/data/data.json';
+
+import "./App.css";
 
 export default function App() {
   return (

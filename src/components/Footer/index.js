@@ -1,5 +1,7 @@
 import Fade from "react-reveal";
 
+import './style.css';
+
 export default function Footer() {
   return (
     <footer>

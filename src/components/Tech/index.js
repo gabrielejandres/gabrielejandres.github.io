@@ -2,6 +2,8 @@ import Slide from "react-reveal";
 
 import { useTranslation } from "react-i18next";
 
+import './style.css';
+
 export default function Tech(props) {
   const { t } = useTranslation();
 
