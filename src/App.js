@@ -8,17 +8,17 @@ import Resume from "./Components/Resume";
 import Tech from "./Components/Tech";
 import Portfolio from "./Components/Portfolio";
 
-import resumeData from './resumeData.json';
+import data from './data.json';
 
 export default function App() {
   return (
     <Suspense fallback="Loading...">
       <div className="App">
-        <Header data={resumeData.main} />
-        <About data={resumeData.main} />
-        <Resume data={resumeData.resume} />
-        <Tech data={resumeData.skills} />
-        <Portfolio data={resumeData.portfolio} />
+        <Header data={data.main} />
+        <About data={data.main} />
+        <Resume data={data.resume} />
+        <Tech data={data.skills} />
+        <Portfolio data={data.portfolio} />
         <Footer />
       </div>
     </Suspense>

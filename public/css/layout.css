@@ -165,12 +165,17 @@ ul#nav {
 
   /* center align the menu */
   text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 ul#nav li {
   position: relative;
   list-style: none;
   height: 48px;
-  display: inline-block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /* Links */
@@ -624,4 +629,18 @@ footer .copyright {
 
 .icons ul li:nth-child(3) span {
   background: #000000;
+}
+
+.language-select button {
+  border-radius: 5px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-family: 'Poppins', sans-serif;
+}
+
+.language-select button:hover {
+  opacity: 0.8;
 }

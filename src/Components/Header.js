@@ -1,13 +1,15 @@
 import ParticlesBg from "particles-bg";
 import Fade from "react-reveal";
+import LanguageSelect from "./LanguageSelect";
+import { useTranslation } from "react-i18next";
 
 export default function Header(props) {
-  if (!props.data) return null;
+  const { t } = useTranslation();
 
   const behance = props.data.behance;
   const github = props.data.github;
   const name = props.data.name;
-  const description = props.data.description;
+  const description = t("header.description");
 
   const config = {
     num: [20, 7],
@@ -58,32 +60,36 @@ export default function Header(props) {
         <ul id="nav" className="nav">
           <li className="current">
             <a className="smoothscroll" href="#home">
-              Home
+              {t("header.home")}
             </a>
           </li>
 
           <li>
             <a className="smoothscroll" href="#about">
-              Sobre
+              {t("header.about")}
             </a>
           </li>
 
           <li>
             <a className="smoothscroll" href="#resume">
-              Experiência
+              {t("header.experience")}
             </a>
           </li>
 
           <li>
             <a className="smoothscroll" href="#tech">
-              Tecnologias
+              {t("header.technologies")}
             </a>
           </li>
 
           <li>
             <a className="smoothscroll" href="#portfolio">
-              Projetos
+              {t("header.projects")}
             </a>
+          </li>
+
+          <li>
+            <LanguageSelect />
           </li>
         </ul>
       </nav>

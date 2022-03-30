@@ -4,12 +4,15 @@ import { initReactI18next } from 'react-i18next';
 import Backend from 'i18next-http-backend';
 import LanguageDetector from 'i18next-browser-languagedetector';
 
-import translationEN from "./locales/en/translation.json";
+import translationEN from "./assets/locales/en/translation.json";
+import translationPT from "./assets/locales/pt/translation.json";
 
-const fallbackLng = ['pt'];
 const availableLanguages = ['pt', 'en'];
 
 const resources = {
+  pt: {
+    translation: translationPT,
+  },
   en: {
     translation: translationEN,
   }
@@ -21,12 +24,13 @@ i18n
   .use(initReactI18next)
   .init({
     resources,
-    fallbackLng: fallbackLng,
-    debug: false,
+    lng: "pt",
 
     detection: {
       checkWhitelist: true,
     },
+
+    debug: false,
 
     whitelist: availableLanguages,
 
@@ -34,6 +38,5 @@ i18n
       escapeValue: false,
     }
   });
-
 
 export default i18n;
