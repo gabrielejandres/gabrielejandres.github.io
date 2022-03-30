@@ -1,26 +1,21 @@
-import React, { Component } from "react";
 import Fade from "react-reveal";
 
-class Footer extends Component {
-  render() {
-    return (
-      <footer>
-        <div className="row">
-          <Fade bottom>
-            <ul className="copyright">
-              <li>&copy; Copyright 2021 Gabriele Jandres</li>
-            </ul>
-          </Fade>
+export default function Footer(props) {
+  return (
+    <footer>
+      <div className="row">
+        <Fade bottom>
+          <ul className="copyright">
+            <li>&copy; Copyright 2021 Gabriele Jandres</li>
+          </ul>
+        </Fade>
 
-          <div id="go-top">
-            <a className="smoothscroll" title="Back to Top" href="#home">
-              <i className="icon-up-open"></i>
-            </a>
-          </div>
+        <div id="go-top">
+          <a className="smoothscroll" title="Back to Top" href="#home">
+            <i className="icon-up-open"></i>
+          </a>
         </div>
-      </footer>
-    );
-  }
+      </div>
+    </footer>
+  );
 }
-
-export default Footer;
