@@ -4,8 +4,8 @@ import { initReactI18next } from 'react-i18next';
 import Backend from 'i18next-http-backend';
 import LanguageDetector from 'i18next-browser-languagedetector';
 
-import translationEN from "./assets/locales/en/translation.json";
-import translationPT from "./assets/locales/pt/translation.json";
+import translationEN from "./assets/data/en/translation.json";
+import translationPT from "./assets/data/pt/translation.json";
 
 const availableLanguages = ['pt', 'en'];
 

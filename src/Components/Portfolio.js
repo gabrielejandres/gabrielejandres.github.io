@@ -1,8 +1,10 @@
 import Zmage from "react-zmage";
 import Fade from "react-reveal";
 
+import { useTranslation } from "react-i18next";
+
 export default function Portfolio(props) {
-  if (!props.data) return null;
+  const { t } = useTranslation();
 
   const projects = props.data.projects.map(function (projects) {
     let projectImage = "images/portfolio/" + projects.image;
@@ -25,7 +27,7 @@ export default function Portfolio(props) {
       <Fade left duration={1000} distance="40px">
         <div className="row">
           <div className="twelve columns collapsed">
-            <h1>Alguns projetos</h1>
+            <h1>{t("portfolio.title")}</h1>
 
             <div
               id="portfolio-wrapper"

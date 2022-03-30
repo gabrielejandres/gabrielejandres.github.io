@@ -1,9 +1,14 @@
 import Slide from "react-reveal";
 
-export default function Resume(props) {
-  if (!props.data) return null;
+import { useTranslation } from "react-i18next";
 
-  const education = props.data.education.map(function (education) {
+export default function Resume() {
+  const { t } = useTranslation();
+  const educationData = t("resume.education.data",  { returnObjects: true });
+  const workData = t("resume.work.data",  { returnObjects: true });
+  const extraData = t("resume.extra.data",  { returnObjects: true });
+
+  const education = educationData.map(function (education) {
     return (
       <div key={education.school}>
         <h3>{education.school}</h3>
@@ -20,9 +25,9 @@ export default function Resume(props) {
     );
   });
 
-  const work = props.data.work.map(function (work) {
+  const work = workData.map(function (work) {
     return (
-      <div key={work.company}>
+      <div key={work.title}>
         {!work.ignoreCompany && <h3>{work.company}</h3>}
         <p className="info">
           {work.title}
@@ -37,7 +42,7 @@ export default function Resume(props) {
     );
   });
 
-  const extra = props.data.extra.map(function (extra) {
+  const extra = extraData.map(function (extra) {
     return (
       <div key={extra.title}>
         <a href={extra.credential}>
@@ -57,7 +62,7 @@ export default function Resume(props) {
         <div className="row education">
           <div className="three columns header-col">
             <h1>
-              <span>Formação</span>
+              <span>{t("resume.education.title")}</span>
             </h1>
           </div>
 
@@ -73,7 +78,7 @@ export default function Resume(props) {
         <div className="row work">
           <div className="three columns header-col">
             <h1>
-              <span>Profissional</span>
+              <span>{t("resume.work.title")}</span>
             </h1>
           </div>
 
@@ -85,7 +90,7 @@ export default function Resume(props) {
         <div className="row education">
           <div className="three columns header-col">
             <h1>
-              <span>Extras</span>
+              <span>{t("resume.extra.title")}</span>
             </h1>
           </div>
 

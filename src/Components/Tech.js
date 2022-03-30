@@ -1,7 +1,9 @@
 import Slide from "react-reveal";
 
+import { useTranslation } from "react-i18next";
+
 export default function Tech(props) {
-  if (!props.data) return null;
+  const { t } = useTranslation();
 
   const skills = props.data.map((skills) => {
     return (
@@ -9,7 +11,6 @@ export default function Tech(props) {
         <img className="card-img" src={skills.image} alt={skills.name} />
         <div className="card-body">
           <h4 className="card-title">{skills.name}</h4>
-          <p className="card-subtitle">{skills.description}</p>
         </div>
       </div>
     );
@@ -21,7 +22,7 @@ export default function Tech(props) {
         <div className="row skill">
           <div className="three columns header-col">
             <h1>
-              <span>Tecnologias</span>
+              <span>{t("technologies.title")}</span>
             </h1>
           </div>
 

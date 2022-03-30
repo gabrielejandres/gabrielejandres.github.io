@@ -101,63 +101,51 @@
   "skills":[
     {
       "name":"CSS",
-      "image": "images/skills/css.png",
-      "description":"Cascading Style Sheet"
+      "image": "images/skills/css.png"
     },
     {
       "name":"HTML",
-      "image": "images/skills/html.jpg",
-      "description":"HyperText Markup Lang"
+      "image": "images/skills/html.jpg"
     },
     {
       "name":"PHP",
-      "image": "images/skills/php.png",
-      "description":"Ling. de programação"
+      "image": "images/skills/php.png"
     },
     {
       "name":"Javascript",
-      "image": "images/skills/js.png",
-      "description":"Ling. de programação"
+      "image": "images/skills/js.png"
     },
     {
       "name":"Java",
-      "image": "images/skills/java.png",
-      "description":"Ling. de programação"
+      "image": "images/skills/java.png"
     },
     {
       "name":"Python",
-      "image": "images/skills/python.jpg",
-      "description":"Ling. de programação"
+      "image": "images/skills/python.jpg"
     },
     {
       "name":"React JS",
-      "image": "images/skills/react.png",
-      "description":"Biblioteca front-end"
+      "image": "images/skills/react.png"
     },
     {
       "name":"React Native",
-      "image": "images/skills/react.png",
-      "description":"Biblioteca mobile"
+      "image": "images/skills/react.png"
     },
     {
       "name":"Laravel",
-      "image": "images/skills/laravel.png",
-      "description":"Framework back-end"
+      "image": "images/skills/laravel.png"
     },
     {
       "name":"Angular",
-      "image": "images/skills/angular.png",
-      "description":"Framework front-end"
+      "image": "images/skills/angular.png"
     },
     {
       "name":"VueJs",
-      "image": "images/skills/vue.png",
-      "description":"Framework front-end"
+      "image": "images/skills/vue.png"
     },
     {
       "name":"Ionic",
-      "image": "images/skills/ionic.png",
-      "description":"Framework mobile"
+      "image": "images/skills/ionic.png"
     }
   ],
   "portfolio":{

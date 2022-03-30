@@ -1,6 +1,6 @@
 import Fade from "react-reveal";
 
-export default function Footer(props) {
+export default function Footer() {
   return (
     <footer>
       <div className="row">

@@ -8,7 +8,7 @@ import Resume from "./Components/Resume";
 import Tech from "./Components/Tech";
 import Portfolio from "./Components/Portfolio";
 
-import data from './data.json';
+import data from './assets/data/data.json';
 
 export default function App() {
   return (
