@@ -41,7 +41,7 @@
 #tech .cards .card {
     background: var(--color-neutral-lighest);
     padding: 15px;
-    width: 200px;
+    width: 150px;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
@@ -60,6 +60,9 @@
 }
 
 #tech .cards .card .card-title {
+    font-weight: 500;
+    font-size: 1.2em;
+    text-align: center;
     margin-bottom: 2px;
 }
 

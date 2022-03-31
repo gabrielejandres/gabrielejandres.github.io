@@ -32,6 +32,7 @@ const LanguageSelect = () => {
         {languageMap[selected].label}
         <ArrowDropDown fontSize="small" style={{color: '#8836C9', fontSize: '1.7em'}} />
       </Button>
+      <hr/>
       <Popover
         open={!!menuAnchor}
         anchorEl={menuAnchor}

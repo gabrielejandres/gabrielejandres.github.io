@@ -224,6 +224,18 @@ ul#nav li.current a {
         letter-spacing: -1px;
         margin: 0 auto 12px auto;
     }
+
+    header .row img {
+        display: none;
+    }
+
+    ul#nav li:last-child {
+        margin-left: 0px;
+    }
+
+    .language-select button {
+        padding-left: 0px;
+    }
 }
 
 @media only screen and (max-width: 900px) {
