@@ -2,7 +2,7 @@ import ParticlesBg from "particles-bg";
 import Fade from "react-reveal";
 import LanguageSelect from "../LanguageSelect/index";
 import { useTranslation } from "react-i18next";
-import hand from "../../assets/img/hand3.png";
+import hand from "../../assets/img/hand.png";
 
 import './style.css';
 
