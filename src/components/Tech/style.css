@@ -76,6 +76,10 @@
         justify-content: center;
     }
 
+    #tech .cards .card {
+        width: 200px;
+    }
+
     #tech .cards:first-child {
         margin-top: 5vh;
     }
