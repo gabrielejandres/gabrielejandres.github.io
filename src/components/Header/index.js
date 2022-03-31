@@ -2,6 +2,7 @@ import ParticlesBg from "particles-bg";
 import Fade from "react-reveal";
 import LanguageSelect from "../LanguageSelect/index";
 import { useTranslation } from "react-i18next";
+import hand from "../../assets/img/hand3.png";
 
 import './style.css';
 
@@ -96,7 +97,8 @@ export default function Header(props) {
         </ul>
       </nav>
 
-      <div className="row banner">
+      <div className="banner">
+        <div className="row">
         <div className="banner-text">
           <Fade bottom>
             <h1 className="responsive-headline">{name}</h1>
@@ -115,6 +117,10 @@ export default function Header(props) {
               </a>
             </ul>
           </Fade>
+        </div>
+        <div>
+          <img src={hand} alt="Coding"/>
+        </div>
         </div>
       </div>
 

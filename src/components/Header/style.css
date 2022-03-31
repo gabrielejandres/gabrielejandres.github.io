@@ -22,11 +22,22 @@ header .banner {
     margin: 0 auto;
     width: 85%;
     padding-bottom: 30px;
-    text-align: center;
+}
+
+header .row {
+    all: initial;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .row img {
+    width: 40vw;
 }
 
 header .banner-text {
     width: 100%;
+    text-align: center;
 }
 
 header .banner-text h1 {
@@ -139,12 +150,11 @@ header .scrolldown a:hover {
 ul#nav {
     min-height: 48px;
     width: auto;
-
-    /* center align the menu */
     text-align: center;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-end;
+    margin-right: 3vw;
 }
 
 ul#nav li {
@@ -154,6 +164,10 @@ ul#nav li {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+ul#nav li:last-child {
+    margin-left: 2vw;
 }
 
 /* Links */
