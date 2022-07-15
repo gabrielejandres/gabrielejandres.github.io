@@ -28,7 +28,7 @@
 }
 
 #resume h1 span {
-    border-bottom: 3px solid var(--color-brand-primary);
+    border-bottom: 3px solid var(--color-brand-tertiary);
     padding-bottom: 6px;
 }
 

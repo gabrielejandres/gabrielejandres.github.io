@@ -6,7 +6,7 @@
         "experience": "Experiência",
         "technologies": "Tecnologias",
         "projects": "Projetos",
-        "description":"Graduanda em Ciência da Computação na UFRJ e desenvolvedora front-end"
+        "description":"Graduanda em Ciência da Computação na UFRJ e Product Designer"
     },
     "about": {
         "title": "Sobre mim",
@@ -49,7 +49,7 @@
                 {
                   "company":"EJCM Consultoria",
                   "ignoreCompany": true,
-                  "title":"Desenvolvedora front-end",
+                  "title":"Product Designer | Desenvolvedora front-end",
                   "years":"Março 2020 - Agosto 2020",
                   "description": ["Prototipagem de telas no Figma", "Desenvolvimento de sistemas usando Ionic, Angular e Laravel", "Participação na organização do treinamento técnico do processo seletivo"]
                 },

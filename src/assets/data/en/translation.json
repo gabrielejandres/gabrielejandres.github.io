@@ -6,7 +6,7 @@
         "experience": "Experience",
         "technologies": "Technologies",
         "projects": "Projects",
-        "description": "Computer Science Student at UFRJ and frontend developer"
+        "description": "Computer Science Student at UFRJ and Product Designer"
     },
     "about": {
         "title": "About me",
@@ -49,7 +49,7 @@
                 {
                   "company":"EJCM Consultoria",
                   "ignoreCompany": true,
-                  "title":"Frontend developer",
+                  "title":"Product Designer | Frontend developer",
                   "years":"March 2020 - August 2020",
                   "description": ["Prototyping in Figma", "Project development in Angular, Ionic and Laravel", "Participation in the initiative for 2020.2 technical training organization"]
                 },

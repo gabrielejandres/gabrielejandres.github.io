@@ -193,7 +193,7 @@ ul#nav li a:active {
 }
 
 ul#nav li.current a {
-    color: var(--color-brand-primary);
+    color: var(--color-brand-tertiary);
 }
 
 .social .btn:first-child {

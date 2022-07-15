@@ -2,7 +2,7 @@ import ParticlesBg from "particles-bg";
 import Fade from "react-reveal";
 import LanguageSelect from "../LanguageSelect/index";
 import { useTranslation } from "react-i18next";
-import hand from "../../assets/img/hand.png";
+import hand from "../../assets/img/hand.svg";
 
 import './style.css';
 
@@ -46,7 +46,7 @@ export default function Header(props) {
     <header id="home">
       <ParticlesBg
         num={40}
-        color="#8836C9"
+        color="#480048"
         config={config}
         type="cobweb"
         bg={true}
