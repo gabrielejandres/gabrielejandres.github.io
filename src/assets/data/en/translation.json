@@ -1,0 +1,106 @@
+{
+    "select_language": "Select Language",
+    "header": {
+        "home": "Home",
+        "about": "About",
+        "experience": "Experience",
+        "technologies": "Technologies",
+        "projects": "Projects",
+        "description": "Computer Science Student at UFRJ and Frontend Developer"
+    },
+    "about": {
+        "title": "About me",
+        "bio": "During my high school, I took an IT course at CEFET and that was the beginning of my passion for technology. Currently, I'm a Computer Science student at UFRJ, and although I'm discovering more aspects of computing, the world of web development, especially front-end, has my heart. In college, I had the incredible opportunity to be part of a junior company (EJCM) and there I got to know the area of ​​UX/UI Design, areas in which I am very interested and try to learn more every day. I love developing truly user-focused solutions!",
+        "contact": "Contact"
+    },
+    "resume":{
+        "education": {
+            "title": "Education",
+            "data":[
+                {
+                  "school":"Federal University of Rio de Janeiro",
+                  "degree":"Bachelor's Degree in Computer Science",
+                  "graduated":"2019.2 - 2023.2 (doing)",
+                  "description": ["Participation in the Junior Enterprise", "Participation in Hacking Help 2020 as UX Designer", "College monitor of Integers and Encryption in 2020/PLE and 2020.1", "College monitor of Computers and Society in 2021.1", "College monitor of Information Organization in 2021.2"]
+                },
+                {
+                  "school":"Federal Center for Technological Education Celso Suckow da Fonseca",
+                  "degree":"High school integrated with IT technician",
+                  "graduated":"2016 - 2018",
+                  "description":  ["Participation in the national week of Science and Technology. Theme: Science Feeding Brazil", "Internal internship", "Participation in Hacking Serra in 2018"]
+                }
+            ]
+        },
+        "work": {
+            "title": "Professional",
+            "data":[
+                {
+                  "company":"Bemobi",
+                  "title":"Sofwate developer intern",
+                  "years":"August 2021 - Now",
+                  "description": ["Frontend development using React JS, HTML, CSS and Javascript", "Backend development using Go"]
+                },
+                {
+                  "company":"EJCM Consultoria",
+                  "title":"Tech Lead",
+                  "years":"August 2020 - November 2021",
+                  "description": ["Code review and quality assurance of sprint deliverables", "Agile team management", "Project architecture management", "Participation in the initiative to create the Git usage pattern", "Leadership of an initiative to change the company's stack", "Leadership of the usability tests initiative", "Leadership of the initiative focused on UX Design. Responsible for structuring the company's digital design service"]
+                },
+                {
+                  "company":"EJCM Consultoria",
+                  "ignoreCompany": true,
+                  "title":"Product Designer | Frontend developer",
+                  "years":"March 2020 - August 2020",
+                  "description": ["Prototyping in Figma", "Project development in Angular, Ionic and Laravel", "Participation in the initiative for 2020.2 technical training organization"]
+                },
+                {
+                  "company":"CEFET",
+                  "title":"Web developer intern",
+                  "years":"February 2018 - September 2018",
+                  "description": ["Frontend and backend development of the 'Namelab - New Educational Environments' project using HTML, CSS, Javascript and PHP."]
+                }
+            ]
+        },
+        "extra": {
+            "title": "Extras",
+            "data":[
+                {
+                  "title":"UX Design instructor",
+                  "dispatcher":"EJCM Consultoria",
+                  "date":"October 2021",
+                  "credential": "https://drive.google.com/file/d/1kuH_vmJvUUCdsK82TFiDAq4oi8fA1KU0/view?usp=sharing"
+                },
+                {
+                  "title":"Bootcamp UX Design",
+                  "dispatcher":"How Bootcamps",
+                  "date":"August 2020",
+                  "credential": "https://drive.google.com/file/d/1nWzmcbc49coiKBSmqx8zxAg6Dh6YOoqG/view?usp=sharing"
+                },
+                {
+                  "title":"Front-end Web Development with React",
+                  "dispatcher":"The Hong Kong University of Science and Technology",
+                  "date":"July 2020",
+                  "credential": "https://drive.google.com/file/d/13MM2HhCFgGGYRj_9JCvHKvlhS_BZTgdL/view?usp=sharing"
+                },
+                {
+                  "title":"Visual Elements of User Interface Design",
+                  "dispatcher":"California Institute of the Arts",
+                  "date":"July 2020",
+                  "credential": "https://drive.google.com/file/d/1CCpipAdFJvhsrw7XdEkd6_eEBnFjhCW_/view?usp=sharing"
+                },
+                {
+                  "title":"Front-end Web Frameworks and Tools: Bootstrap 4",
+                  "dispatcher":"The Hong Kong University of Science and Technology",
+                  "date":"May 2020",
+                  "credential": "https://drive.google.com/file/d/1VFgMcB7rMw-dim9Yci5IbsgIUdhz4d4k/view?usp=sharing"
+                }
+              ]
+        }
+    },
+    "technologies": {
+        "title": "Technologies"
+    },
+    "portfolio": {
+        "title": "Some projects"
+    }
+}  

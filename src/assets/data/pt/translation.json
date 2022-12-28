@@ -1,0 +1,107 @@
+{
+    "select_language": "Selecione o idioma",
+    "header": {
+        "home": "Home",
+        "about": "Sobre",
+        "experience": "Experiência",
+        "technologies": "Tecnologias",
+        "projects": "Projetos",
+        "description":"Graduanda em Ciência da Computação na UFRJ e desenvolvedora front-end"
+    },
+    "about": {
+        "title": "Sobre mim",
+        "bio":"Durante meu ensino médio, fiz um curso de TI no CEFET e esse foi o início da minha paixão pela tecnologia. Atualmente, sou estudante de Ciência da Computação na UFRJ, e apesar de estar descobrindo mais vertentes da computação, o mundo do desenvolvimento web, principalmente front-end, tem meu coração. Na faculdade, tive a oportunidade incrível de fazer parte de uma empresa júnior (EJCM) e lá conheci a área de UX/UI Design, áreas nas quais tenho muito interesse e procuro aprender mais todos os dias. Me encanta desenvolver soluções realmente focadas no usuário!",
+        "contact": "Contato"
+    },
+    "resume":{
+        "education": {
+            "title": "Formação",
+            "data":[
+                {
+                  "school":"Universidade Federal do Rio de Janeiro",
+                  "degree":"Bacharelado em Ciência da Computação",
+                  "graduated":"2019.2 - 2023.2 (cursando)",
+                  "description": ["Participação na Empresa Júnior do curso", "Participação do Hacking Help 2020 como UX Designer", "Monitoria de Números Inteiros e Criptografia em 2020/PLE e 2020.1", "Monitoria de Computadores e Sociedade em 2021.1", "Monitoria de Organização da Informação em 2021.2"]
+                },
+                {
+                  "school":"Centro Federal de Educação Tecnológica Celso Suckow da Fonseca",
+                  "degree":"Ensino médio integrado ao técnico em informática",
+                  "graduated":"2016 - 2018",
+                  "description":  ["Participação na semana nacional de Ciência e Tecnologia. Tema: Ciência Alimentando o Brasil", "Estágio interno", "Participação no Hacking Serra (Cluster Turismo) em 2018"]
+                }
+            ]
+        },
+        "work": {
+            "title": "Profissional",
+            "data":[
+                {
+                  "company":"Bemobi",
+                  "title":"Estagiária de desenvolvimento",
+                  "years":"Agosto 2021 - Presente",
+                  "description": ["Desenvolvimento front-end usando React JS, HTML, CSS e Javascript", "Desenvolvimento back-end usando Go"]
+                },
+                {
+                  "company":"EJCM Consultoria",
+                  "title":"Tech Lead",
+                  "years":"Agosto 2020 - Novembro 2021",
+                  "description": ["Revisão de códigos e garantia da qualidade de entregas das sprints", "Gerenciamento ágil de equipe", "Gerenciamento da arquitetura dos projetos", "Participação na iniciativa para criação do padrão de uso do Git", "Liderança de iniciativa para mudança de stack da empresa", "Liderança da iniciativa sobre testes de usabilidade", "Liderança da iniciativa focada em UX Design e na estruturação do serviço de concepção digital da empresa"]
+                },
+                {
+                  "company":"EJCM Consultoria",
+                  "ignoreCompany": true,
+                  "title":"Product Designer | Desenvolvedora front-end",
+                  "years":"Março 2020 - Agosto 2020",
+                  "description": ["Prototipagem de telas no Figma", "Desenvolvimento de sistemas usando Ionic, Angular e Laravel", "Participação na organização do treinamento técnico do processo seletivo"]
+                },
+                {
+                  "company":"CEFET",
+                  "title":"Estagiária de desenvolvimento web",
+                  "years":"Fevereiro 2018 - Setembro 2018",
+                  "description": ["Desenvolvimento front-end (HTML, CSS e JavaScript) e back-end(PHP) do projeto 'Namelab - Novos Ambientes Educacionais'"]
+                }
+            ]
+        },
+        "extra": {
+            "title": "Extras",
+            "data":[
+                {
+                  "title":"Instrutora de UX Design",
+                  "dispatcher":"EJCM Consultoria",
+                  "date":"Outubro 2021",
+                  "credential": "https://drive.google.com/file/d/1kuH_vmJvUUCdsK82TFiDAq4oi8fA1KU0/view?usp=sharing"
+                },
+                {
+                  "title":"Bootcamp UX Design",
+                  "dispatcher":"How Bootcamps",
+                  "date":"Agosto 2020",
+                  "credential": "https://drive.google.com/file/d/1nWzmcbc49coiKBSmqx8zxAg6Dh6YOoqG/view?usp=sharing"
+                },
+                {
+                  "title":"Front-end Web Development with React",
+                  "dispatcher":"The Hong Kong University of Science and Technology",
+                  "date":"Julho 2020",
+                  "credential": "https://drive.google.com/file/d/13MM2HhCFgGGYRj_9JCvHKvlhS_BZTgdL/view?usp=sharing"
+                },
+                {
+                  "title":"Visual Elements of User Interface Design",
+                  "dispatcher":"California Institute of the Arts",
+                  "date":"Julho 2020",
+                  "credential": "https://drive.google.com/file/d/1CCpipAdFJvhsrw7XdEkd6_eEBnFjhCW_/view?usp=sharing"
+                },
+                {
+                  "title":"Front-end Web Frameworks and Tools: Bootstrap 4",
+                  "dispatcher":"The Hong Kong University of Science and Technology",
+                  "date":"Maio 2020",
+                  "credential": "https://drive.google.com/file/d/1VFgMcB7rMw-dim9Yci5IbsgIUdhz4d4k/view?usp=sharing"
+                }
+              ]
+        }
+    },
+    "technologies": {
+        "title": "Tecnologias"
+    },
+    "portfolio": {
+        "title": "Alguns projetos"
+    }
+}
+  
