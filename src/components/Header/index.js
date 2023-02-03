@@ -46,7 +46,7 @@ export default function Header(props) {
     <header id="home">
       <ParticlesBg
         num={40}
-        color="#D92B58"
+        color="#F2596B"
         config={config}
         type="cobweb"
         bg={true}
