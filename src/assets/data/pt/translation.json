@@ -35,23 +35,16 @@
             "title": "Profissional",
             "data":[
                 {
+                  "company":"Nubank",
+                  "title":"Estagiária de desenvolvimento",
+                  "years":"Janeiro 2023 - Presente",
+                  "description": ["Desenvolvimento de aplicações utilizando clojure"]
+                },
+                {
                   "company":"Bemobi",
                   "title":"Estagiária de desenvolvimento",
-                  "years":"Agosto 2021 - Presente",
+                  "years":"Agosto 2021 - Janeiro 2023",
                   "description": ["Desenvolvimento front-end usando React JS, HTML, CSS e Javascript", "Desenvolvimento back-end usando Go"]
-                },
-                {
-                  "company":"EJCM Consultoria",
-                  "title":"Tech Lead",
-                  "years":"Agosto 2020 - Novembro 2021",
-                  "description": ["Revisão de códigos e garantia da qualidade de entregas das sprints", "Gerenciamento ágil de equipe", "Gerenciamento da arquitetura dos projetos", "Participação na iniciativa para criação do padrão de uso do Git", "Liderança de iniciativa para mudança de stack da empresa", "Liderança da iniciativa sobre testes de usabilidade", "Liderança da iniciativa focada em UX Design e na estruturação do serviço de concepção digital da empresa"]
-                },
-                {
-                  "company":"EJCM Consultoria",
-                  "ignoreCompany": true,
-                  "title":"Product Designer | Desenvolvedora front-end",
-                  "years":"Março 2020 - Agosto 2020",
-                  "description": ["Prototipagem de telas no Figma", "Desenvolvimento de sistemas usando Ionic, Angular e Laravel", "Participação na organização do treinamento técnico do processo seletivo"]
                 },
                 {
                   "company":"CEFET",
@@ -95,7 +88,37 @@
                   "credential": "https://drive.google.com/file/d/1VFgMcB7rMw-dim9Yci5IbsgIUdhz4d4k/view?usp=sharing"
                 }
               ]
-        }
+        },
+        "volunteering": {
+          "title": "Voluntariado",
+          "data":[
+            {
+              "company":"Rede Caronaê",
+              "title":"Product Designer",
+              "years":"Agosto 2022 - Junho 2023",
+              "description": ["Pesquisa e prototipagem para o desenvolvimento do site do projeto"]
+            },
+            {
+              "company":"Minerv@s Digitais",
+              "title":"Assessora de Comunicação e Product Designer",
+              "years":"Abril 2022 - Dezembro 2022",
+              "description": ["Construção de postagens para o instagram", "Pesquisa e prototipagem para o desenvolvimento do site do projeto"]
+            },
+            {
+              "company":"EJCM Consultoria",
+              "title":"Tech Lead",
+              "years":"Agosto 2020 - Novembro 2021",
+              "description": ["Revisão de códigos e garantia da qualidade de entregas das sprints", "Gerenciamento ágil de equipe", "Gerenciamento da arquitetura dos projetos", "Participação na iniciativa para criação do padrão de uso do Git", "Liderança de iniciativa para mudança de stack da empresa", "Liderança da iniciativa sobre testes de usabilidade", "Liderança da iniciativa focada em UX Design e na estruturação do serviço de concepção digital da empresa"]
+            },
+            {
+              "company":"EJCM Consultoria",
+              "ignoreCompany": true,
+              "title":"Product Designer | Desenvolvedora front-end",
+              "years":"Março 2020 - Agosto 2020",
+              "description": ["Prototipagem de telas no Figma", "Desenvolvimento de sistemas usando Ionic, Angular e Laravel", "Participação na organização do treinamento técnico do processo seletivo"]
+            }
+            ]
+      }
     },
     "technologies": {
         "title": "Tecnologias"

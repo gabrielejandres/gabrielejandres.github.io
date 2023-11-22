@@ -9,6 +9,7 @@ export default function Resume() {
   const educationData = t("resume.education.data",  { returnObjects: true });
   const workData = t("resume.work.data",  { returnObjects: true });
   const extraData = t("resume.extra.data",  { returnObjects: true });
+  const volunteeringData = t("resume.volunteering.data",  { returnObjects: true });
 
   const education = educationData.map(function (education) {
     return (
@@ -29,7 +30,7 @@ export default function Resume() {
 
   const work = workData.map(function (work) {
     return (
-      <div key={work.title}>
+      <div key={work.company}>
         {!work.ignoreCompany && <h3>{work.company}</h3>}
         <p className="info">
           {work.title}
@@ -54,6 +55,23 @@ export default function Resume() {
           {extra.dispatcher}
           <span>&bull;</span> <em className="date">{extra.date}</em>
         </p>
+      </div>
+    );
+  });
+
+  const volunteering = volunteeringData.map(function (volunteering) {
+    return (
+      <div key={volunteering.title}>
+        {!volunteering.ignoreCompany && <h3>{volunteering.company}</h3>}
+        <p className="info">
+          {volunteering.title}
+          <span>&bull;</span> <em className="date">{volunteering.years}</em>
+        </p>
+        <ul className="activities-list">
+          {volunteering.description.map((item) => {
+            return <li>{item}</li>;
+          })}
+        </ul>
       </div>
     );
   });
@@ -101,6 +119,18 @@ export default function Resume() {
               <div className="twelve columns">{extra}</div>
             </div>
           </div>
+        </div>
+      </Slide>
+
+      <Slide left duration={1300}>
+        <div className="row work">
+          <div className="three columns header-col">
+            <h1>
+              <span>{t("resume.volunteering.title")}</span>
+            </h1>
+          </div>
+
+          <div className="nine columns main-col">{volunteering}</div>
         </div>
       </Slide>
     </section>

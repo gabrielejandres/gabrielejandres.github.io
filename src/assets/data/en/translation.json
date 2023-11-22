@@ -35,23 +35,16 @@
             "title": "Professional",
             "data":[
                 {
+                  "company":"Nubank",
+                  "title":"Sofware engineer intern",
+                  "years":"January 2023 - Now",
+                  "description": ["Software development using Clojure"]
+                },
+                {
                   "company":"Bemobi",
-                  "title":"Sofwate developer intern",
-                  "years":"August 2021 - Now",
+                  "title":"Sofware developer intern",
+                  "years":"August 2021 - January 2023",
                   "description": ["Frontend development using React JS, HTML, CSS and Javascript", "Backend development using Go"]
-                },
-                {
-                  "company":"EJCM Consultoria",
-                  "title":"Tech Lead",
-                  "years":"August 2020 - November 2021",
-                  "description": ["Code review and quality assurance of sprint deliverables", "Agile team management", "Project architecture management", "Participation in the initiative to create the Git usage pattern", "Leadership of an initiative to change the company's stack", "Leadership of the usability tests initiative", "Leadership of the initiative focused on UX Design. Responsible for structuring the company's digital design service"]
-                },
-                {
-                  "company":"EJCM Consultoria",
-                  "ignoreCompany": true,
-                  "title":"Product Designer | Frontend developer",
-                  "years":"March 2020 - August 2020",
-                  "description": ["Prototyping in Figma", "Project development in Angular, Ionic and Laravel", "Participation in the initiative for 2020.2 technical training organization"]
                 },
                 {
                   "company":"CEFET",
@@ -95,7 +88,37 @@
                   "credential": "https://drive.google.com/file/d/1VFgMcB7rMw-dim9Yci5IbsgIUdhz4d4k/view?usp=sharing"
                 }
               ]
-        }
+        },
+        "volunteering": {
+          "title": "Voluntariado",
+          "data":[
+            {
+              "company":"Rede Caronaê",
+              "title":"Product Designer",
+              "years":"August 2022 - June 2023",
+              "description": ["Research and prototyping to the development of the project website"]
+            },
+            {
+              "company":"Minerv@s Digitais",
+              "title":"Communication consultant and Product Designer",
+              "years":"April 2022 - December 2022",
+              "description": ["Creation of Instagram posts", "Research and prototyping to the development of the project website"]
+            },
+            {
+              "company":"EJCM Consultoria",
+              "title":"Tech Lead",
+              "years":"August 2020 - November 2021",
+              "description": ["Code review and quality assurance of sprint deliverables", "Agile team management", "Project architecture management", "Participation in the initiative to create the Git usage pattern", "Leadership of an initiative to change the company's stack", "Leadership of the usability tests initiative", "Leadership of the initiative focused on UX Design. Responsible for structuring the company's digital design service"]
+            },
+            {
+              "company":"EJCM Consultoria",
+              "ignoreCompany": true,
+              "title":"Product Designer | Frontend developer",
+              "years":"March 2020 - August 2020",
+              "description": ["Prototyping in Figma", "Project development in Angular, Ionic and Laravel", "Participation in the initiative for 2020.2 technical training organization"]
+            }
+            ]
+      }
     },
     "technologies": {
         "title": "Technologies"
