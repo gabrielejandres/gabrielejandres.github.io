@@ -6,7 +6,7 @@
         "experience": "Experience",
         "technologies": "Technologies",
         "projects": "Projects",
-        "description": "Computer Science Student at UFRJ and Frontend Developer"
+        "description": "Software Engineer and UX/UI Design enthusiast"
     },
     "about": {
         "title": "About me",
@@ -20,7 +20,7 @@
                 {
                   "school":"Federal University of Rio de Janeiro",
                   "degree":"Bachelor's Degree in Computer Science",
-                  "graduated":"2019.2 - 2023.2 (doing)",
+                  "graduated":"2019.2 - 2023.2",
                   "description": ["Participation in the Junior Enterprise", "Participation in Hacking Help 2020 as UX Designer", "College monitor of Integers and Encryption in 2020/PLE and 2020.1", "College monitor of Computers and Society in 2021.1", "College monitor of Information Organization in 2021.2"]
                 },
                 {
@@ -36,9 +36,16 @@
             "data":[
                 {
                   "company":"Nubank",
+                  "title":"Associate Software Engineer",
+                  "years":"January 2024 - Now",
+                  "description": ["Software development using Clojure", "Implementations involving Kafka", "Maintenance of the frontend of some widgets in internal system", "Building SQL controls to monitor services"]
+                },
+                {
+                  "company":"Nubank",
+                  "ignoreCompany": true,
                   "title":"Sofware engineer intern",
-                  "years":"January 2023 - Now",
-                  "description": ["Software development using Clojure"]
+                  "years":"January 2023 - January 2024",
+                  "description": ["Software development using Clojure", "Updating systems with AWS lambdas", "Implementations involving Kafka", "Maintenance of the frontend of some widgets in internal system"]
                 },
                 {
                   "company":"Bemobi",

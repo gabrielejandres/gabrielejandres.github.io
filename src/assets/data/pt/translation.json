@@ -6,7 +6,7 @@
         "experience": "Experiência",
         "technologies": "Tecnologias",
         "projects": "Projetos",
-        "description":"Graduanda em Ciência da Computação na UFRJ e desenvolvedora front-end"
+        "description":"Engenheira de Software e entusiasta de UX/UI Design"
     },
     "about": {
         "title": "Sobre mim",
@@ -20,7 +20,7 @@
                 {
                   "school":"Universidade Federal do Rio de Janeiro",
                   "degree":"Bacharelado em Ciência da Computação",
-                  "graduated":"2019.2 - 2023.2 (cursando)",
+                  "graduated":"2019.2 - 2023.2",
                   "description": ["Participação na Empresa Júnior do curso", "Participação do Hacking Help 2020 como UX Designer", "Monitoria de Números Inteiros e Criptografia em 2020/PLE e 2020.1", "Monitoria de Computadores e Sociedade em 2021.1", "Monitoria de Organização da Informação em 2021.2"]
                 },
                 {
@@ -36,9 +36,16 @@
             "data":[
                 {
                   "company":"Nubank",
-                  "title":"Estagiária de desenvolvimento",
-                  "years":"Janeiro 2023 - Presente",
-                  "description": ["Desenvolvimento de aplicações utilizando clojure"]
+                  "title":"Engenheira de Software Associada",
+                  "years":"Janeiro 2024 - Presente",
+                  "description": ["Desenvolvimento de aplicações utilizando clojure", "Construção de controles em SQL para monitoramento dos serviços", "Implementações envolvendo kafka", "Manutenção do front de widgets do sistema interno"]
+                },
+                {
+                  "company":"Nubank",
+                  "ignoreCompany": true,
+                  "title":"Estagiária de engenharia de software",
+                  "years":"Janeiro 2023 - Janeiro 2024",
+                  "description": ["Desenvolvimento de aplicações utilizando clojure", "Atualização de sistemas com lambdas da AWS", "Implementações envolvendo kafka", "Manutenção do front de widgets do sistema interno"]
                 },
                 {
                   "company":"Bemobi",

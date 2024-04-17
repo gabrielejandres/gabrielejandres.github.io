@@ -53,20 +53,20 @@
       "image": "images/skills/angular.png"
     },
     {
-      "name":"Clojure",
-      "image": "images/skills/clojure.png"
-    },
-    {
       "name":"Ionic",
       "image": "images/skills/ionic.png"
     },
     {
-      "name":"Laravel",
-      "image": "images/skills/laravel.png"
+      "name":"Clojure",
+      "image": "images/skills/clojure.png"
     },
     {
-      "name":"Java",
-      "image": "images/skills/java.png"
+      "name":"Kafka",
+      "image": "images/skills/kafka.png"
+    },
+    {
+      "name":"Laravel",
+      "image": "images/skills/laravel.png"
     },
     {
       "name":"Python",
