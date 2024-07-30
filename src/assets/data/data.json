@@ -1,0 +1,140 @@
+{
+  "main": {
+    "name":"Gabriele Jandres",
+    "image":"profile.png",
+    "email": "gabrielejc@ic.ufrj.br",
+    "github":"https://github.com/gabrielejandres",
+    "behance": "https://www.behance.net/gabrielejandres",
+    "social":[
+      {
+        "name":"email",
+        "url":"mailto:gabrielejc@dcc.ufrj.br",
+        "className":"fa fa-envelope"
+      },
+      {
+        "name":"linkedin",
+        "url":"https://www.linkedin.com/in/gabriele-jandres-249107175/",
+        "className":"fa fa-linkedin"
+      },
+      {
+        "name":"instagram",
+        "url":"https://www.instagram.com/gabs.experience/",
+        "className":"fa fa-instagram"
+      }
+    ]
+  },
+  "skills":[
+    {
+      "name":"Figma",
+      "image": "images/skills/figma.png"
+    },
+    {
+      "name":"CSS",
+      "image": "images/skills/css.png"
+    },
+    {
+      "name":"HTML",
+      "image": "images/skills/html.jpg"
+    },
+    {
+      "name":"Javascript",
+      "image": "images/skills/js.png"
+    },
+    {
+      "name":"React JS",
+      "image": "images/skills/react.png"
+    },
+    {
+      "name":"React Native",
+      "image": "images/skills/react.png"
+    },
+    {
+      "name":"Angular",
+      "image": "images/skills/angular.png"
+    },
+    {
+      "name":"Ionic",
+      "image": "images/skills/ionic.png"
+    },
+    {
+      "name":"Clojure",
+      "image": "images/skills/clojure.png"
+    },
+    {
+      "name":"Kafka",
+      "image": "images/skills/kafka.png"
+    },
+    {
+      "name":"Laravel",
+      "image": "images/skills/laravel.png"
+    },
+    {
+      "name":"Python",
+      "image": "images/skills/python.png"
+    }
+  ],
+  "portfolio":{
+    "projects": [
+      {
+        "title":"nutri.me",
+        "category":"UI/UX",
+        "image":"ui/nutri.png",
+        "url":"https://www.behance.net/gallery/140113727/nutrime"
+      },
+      {
+        "title":"Daily UI",
+        "category":"UI/UX",
+        "image":"ui/dailyui.jpg",
+        "url":"https://www.behance.net/gallery/115168171/Daily-UI-001"
+      },
+      {
+        "title":"Healthood",
+        "category":"UI/UX",
+        "image":"ui/healthood.png",
+        "url":"https://www.behance.net/gallery/115091415/Healthood"
+      },
+      {
+        "title":"RevisAí",
+        "category":"UI/UX",
+        "image":"ui/revisai.jpg",
+        "url":"https://www.behance.net/gallery/115093881/RevisAi"
+      },
+      {
+        "title":"Hommy",
+        "category":"UI/UX",
+        "image":"ui/hommy.png",
+        "url":"https://www.behance.net/gallery/115090037/Hommy"
+      },
+      {
+        "title":"FriendFlix",
+        "category":"UI/UX",
+        "image":"ui/friendflix.png",
+        "url":"https://www.behance.net/gallery/115089149/FriendFlix"
+      },
+      {
+        "title":"MicroMarket",
+        "category":"UI/UX",
+        "image":"ui/micromarket.png",
+        "url":"https://www.figma.com/file/D7wto7wa98PGxXbZTvqMsp/MicroMarket"
+      },
+      {
+        "title":"Queezy",
+        "category":"Web",
+        "image":"web/queezy.png",
+        "url":"https://www.behance.net/gallery/140116709/Queezy"
+      },
+      {
+        "title":"Hommy (App)",
+        "category":"App",
+        "image":"apps/hommy.png",
+        "url":"https://github.com/gabrielejandres/hommy"
+      },
+      {
+        "title":"My Favorites Heroes",
+        "category":"App",
+        "image":"apps/my-favorites-heroes.png",
+        "url":"https://github.com/gabrielejandres/my-favorites-heroes-app"
+      }
+    ]
+  }
+}

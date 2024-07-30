@@ -1,0 +1,136 @@
+{
+    "select_language": "Select Language",
+    "header": {
+        "home": "Home",
+        "about": "About",
+        "experience": "Experience",
+        "technologies": "Technologies",
+        "projects": "Projects",
+        "description": "Software Engineer and UX/UI Design enthusiast"
+    },
+    "about": {
+        "title": "About me",
+        "bio": "During my high school years, I took an IT course at CEFET and that was the beginning of my passion for technology. I also studied Computer Science at UFRJ, and there I had the opportunity to be part of a junior company (EJCM), where I learned about UX/UI Design, areas I'm very interested in and try to learn more about every day. Although I'm discovering more aspects of computing, the world of software development is my favorite. I love developing solutions that are really focused on the user and solving their problems!",
+        "contact": "Contact"
+    },
+    "resume":{
+        "education": {
+            "title": "Education",
+            "data":[
+                {
+                  "school":"Federal University of Rio de Janeiro",
+                  "degree":"Bachelor's Degree in Computer Science",
+                  "graduated":"2019.2 - 2023.2",
+                  "description": ["Participation in the Junior Enterprise", "Participation in Hacking Help 2020 as UX Designer", "College monitor of Integers and Encryption in 2020/PLE and 2020.1", "College monitor of Computers and Society in 2021.1", "College monitor of Information Organization in 2021.2"]
+                },
+                {
+                  "school":"Federal Center for Technological Education Celso Suckow da Fonseca",
+                  "degree":"High school integrated with IT technician",
+                  "graduated":"2016 - 2018",
+                  "description":  ["Participation in the national week of Science and Technology. Theme: Science Feeding Brazil", "Internal internship", "Participation in Hacking Serra in 2018"]
+                }
+            ]
+        },
+        "work": {
+            "title": "Professional",
+            "data":[
+                {
+                  "company":"Nubank",
+                  "title":"Associate Software Engineer",
+                  "years":"January 2024 - Now",
+                  "description": ["Software development using Clojure", "Implementations involving Kafka", "Maintenance of the frontend of some widgets in internal system", "Building SQL controls to monitor services"]
+                },
+                {
+                  "company":"Nubank",
+                  "ignoreCompany": true,
+                  "title":"Sofware engineer intern",
+                  "years":"January 2023 - January 2024",
+                  "description": ["Software development using Clojure", "Updating systems with AWS lambdas", "Implementations involving Kafka", "Maintenance of the frontend of some widgets in internal system"]
+                },
+                {
+                  "company":"Bemobi",
+                  "title":"Sofware developer intern",
+                  "years":"August 2021 - January 2023",
+                  "description": ["Frontend development using React JS, HTML, CSS and Javascript", "Backend development using Go"]
+                },
+                {
+                  "company":"CEFET",
+                  "title":"Web developer intern",
+                  "years":"February 2018 - September 2018",
+                  "description": ["Frontend and backend development of the 'Namelab - New Educational Environments' project using HTML, CSS, Javascript and PHP."]
+                }
+            ]
+        },
+        "extra": {
+            "title": "Extras",
+            "data":[
+                {
+                  "title":"UX Design instructor",
+                  "dispatcher":"EJCM Consultoria",
+                  "date":"October 2021",
+                  "credential": "https://drive.google.com/file/d/1kuH_vmJvUUCdsK82TFiDAq4oi8fA1KU0/view?usp=sharing"
+                },
+                {
+                  "title":"Bootcamp UX Design",
+                  "dispatcher":"How Bootcamps",
+                  "date":"August 2020",
+                  "credential": "https://drive.google.com/file/d/1nWzmcbc49coiKBSmqx8zxAg6Dh6YOoqG/view?usp=sharing"
+                },
+                {
+                  "title":"Front-end Web Development with React",
+                  "dispatcher":"The Hong Kong University of Science and Technology",
+                  "date":"July 2020",
+                  "credential": "https://drive.google.com/file/d/13MM2HhCFgGGYRj_9JCvHKvlhS_BZTgdL/view?usp=sharing"
+                },
+                {
+                  "title":"Visual Elements of User Interface Design",
+                  "dispatcher":"California Institute of the Arts",
+                  "date":"July 2020",
+                  "credential": "https://drive.google.com/file/d/1CCpipAdFJvhsrw7XdEkd6_eEBnFjhCW_/view?usp=sharing"
+                },
+                {
+                  "title":"Front-end Web Frameworks and Tools: Bootstrap 4",
+                  "dispatcher":"The Hong Kong University of Science and Technology",
+                  "date":"May 2020",
+                  "credential": "https://drive.google.com/file/d/1VFgMcB7rMw-dim9Yci5IbsgIUdhz4d4k/view?usp=sharing"
+                }
+              ]
+        },
+        "volunteering": {
+          "title": "Voluntariado",
+          "data":[
+            {
+              "company":"Rede Caronaê",
+              "title":"Product Designer",
+              "years":"August 2022 - June 2023",
+              "description": ["Research and prototyping to the development of the project website"]
+            },
+            {
+              "company":"Minerv@s Digitais",
+              "title":"Communication consultant and Product Designer",
+              "years":"April 2022 - December 2022",
+              "description": ["Creation of Instagram posts", "Research and prototyping to the development of the project website"]
+            },
+            {
+              "company":"EJCM Consultoria",
+              "title":"Tech Lead",
+              "years":"August 2020 - November 2021",
+              "description": ["Code review and quality assurance of sprint deliverables", "Agile team management", "Project architecture management", "Participation in the initiative to create the Git usage pattern", "Leadership of an initiative to change the company's stack", "Leadership of the usability tests initiative", "Leadership of the initiative focused on UX Design. Responsible for structuring the company's digital design service"]
+            },
+            {
+              "company":"EJCM Consultoria",
+              "ignoreCompany": true,
+              "title":"Product Designer | Frontend developer",
+              "years":"March 2020 - August 2020",
+              "description": ["Prototyping in Figma", "Project development in Angular, Ionic and Laravel", "Participation in the initiative for 2020.2 technical training organization"]
+            }
+            ]
+      }
+    },
+    "technologies": {
+        "title": "Technologies"
+    },
+    "portfolio": {
+        "title": "Some projects"
+    }
+}  
