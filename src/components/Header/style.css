@@ -192,8 +192,8 @@ ul#nav li a:active {
     background-color: transparent !important;
 }
 
-ul#nav li.current a {
-    color: var(--color-brand-tertiary);
+ul#nav li a:hover {
+    opacity: 0.8;
 }
 
 .social .btn:first-child {

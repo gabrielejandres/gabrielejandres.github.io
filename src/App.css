@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800;900&display=swap');
 
 :root {
-  --color-brand-primary: #E2B6AB;
+  --color-brand-primary: #D92B58;
   --color-brand-tertiary: #F1DEDD;
   --color-action-primary: #BFD8B8;
   --color-neutral-lighest: #F2F2F2;
@@ -553,16 +553,13 @@ input[type="button"] {
   border: none;
   cursor: pointer;
   height: auto;
+  border-radius: 10px;
 
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
   -ms-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
-
-  -moz-border-radius: 0px;
-  -webkit-border-radius: 0px;
-  -khtml-border-radius: 0px;
 }
 
 .button:hover,
