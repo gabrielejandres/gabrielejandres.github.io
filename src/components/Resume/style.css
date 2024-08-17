@@ -76,6 +76,19 @@
     margin-left: 5%;
 }
 
+#resume .activities-list .item {
+    display: grid;
+    grid-template-columns: 1.5fr 0.5fr;
+}
+
+#resume .activities-list .item a {
+    width: 60%;
+    height: 6vh;
+    color: var(--color-neutral-lighest);
+    text-align: center;
+    padding-top: 5px;
+} 
+
 @media only screen and (max-width: 900px) {
     #resume h1 {
         font: 16px/24px 'Poppins', sans-serif;

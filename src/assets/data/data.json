@@ -76,6 +76,30 @@
   "portfolio":{
     "projects": [
       {
+        "title":"EmpreendHer",
+        "category":"Web",
+        "image":"web/empreendher.png",
+        "url":"https://www.behance.net/gallery/204801049/EmpreendHer"
+      },
+      {
+        "title":"Queezy",
+        "category":"Web",
+        "image":"web/queezy.png",
+        "url":"https://www.behance.net/gallery/140116709/Queezy"
+      },
+      {
+        "title":"Hommy (App)",
+        "category":"App",
+        "image":"apps/hommy.png",
+        "url":"https://github.com/gabrielejandres/hommy"
+      },
+      {
+        "title":"My Favorites Heroes",
+        "category":"App",
+        "image":"apps/my-favorites-heroes.png",
+        "url":"https://github.com/gabrielejandres/my-favorites-heroes-app"
+      },
+      {
         "title":"nutri.me",
         "category":"UI/UX",
         "image":"ui/nutri.png",
@@ -100,6 +124,12 @@
         "url":"https://www.behance.net/gallery/115093881/RevisAi"
       },
       {
+        "title":"LP Minerv@s Digitais",
+        "category":"UI/UX",
+        "image":"ui/minervas.png",
+        "url":"https://www.behance.net/gallery/204796637/Landing-Page-Minervs-Digitais"
+      },
+      {
         "title":"Hommy",
         "category":"UI/UX",
         "image":"ui/hommy.png",
@@ -110,30 +140,6 @@
         "category":"UI/UX",
         "image":"ui/friendflix.png",
         "url":"https://www.behance.net/gallery/115089149/FriendFlix"
-      },
-      {
-        "title":"MicroMarket",
-        "category":"UI/UX",
-        "image":"ui/micromarket.png",
-        "url":"https://www.figma.com/file/D7wto7wa98PGxXbZTvqMsp/MicroMarket"
-      },
-      {
-        "title":"Queezy",
-        "category":"Web",
-        "image":"web/queezy.png",
-        "url":"https://www.behance.net/gallery/140116709/Queezy"
-      },
-      {
-        "title":"Hommy (App)",
-        "category":"App",
-        "image":"apps/hommy.png",
-        "url":"https://github.com/gabrielejandres/hommy"
-      },
-      {
-        "title":"My Favorites Heroes",
-        "category":"App",
-        "image":"apps/my-favorites-heroes.png",
-        "url":"https://github.com/gabrielejandres/my-favorites-heroes-app"
       }
     ]
   }

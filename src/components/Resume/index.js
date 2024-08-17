@@ -21,7 +21,13 @@ export default function Resume() {
         </p>
         <ul className="activities-list">
           {education.description.map((item) => {
-            return <li>{item}</li>;
+            return <div className="item">
+                    <li>{item}</li>
+                  {item.includes("Handoff") &&
+                    <a href="https://pantheon.ufrj.br/handle/11422/23087" className="button btn github-btn">
+                      <i className="fa fa-link"></i> Link
+                    </a>}  
+              </div>
           })}
         </ul>
       </div>
