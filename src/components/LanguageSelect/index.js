@@ -30,7 +30,7 @@ const LanguageSelect = () => {
     <div className="language-select">
       <Button onClick={({ currentTarget }) => setMenuAnchor(currentTarget)} style={{color: '#fff', fontFamily: 'Poppins', fontSize: '1em'}}>
         {languageMap[selected].label}
-        <ArrowDropDown fontSize="small" style={{color: '#D92B58', fontSize: '1.7em'}} />
+        <ArrowDropDown className="arrow" fontSize="small"/>
       </Button>
       <hr/>
       <Popover
