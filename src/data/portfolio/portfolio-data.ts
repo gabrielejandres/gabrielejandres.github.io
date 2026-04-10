@@ -10,7 +10,7 @@ export const portfolioData: PortfolioData = {
     social: [
       {
         name: 'email',
-        url: 'mailto:gabrielejc@dcc.ufrj.br',
+        url: 'mailto:gabrielejc@ic.ufrj.br',
         className: 'fa fa-envelope',
       },
       {
