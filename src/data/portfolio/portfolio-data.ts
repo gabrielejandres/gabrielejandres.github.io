@@ -1,0 +1,206 @@
+import type { PortfolioData } from './types';
+
+export const portfolioData: PortfolioData = {
+  main: {
+    name: 'Gabriele Jandres',
+    image: 'profile.png',
+    email: 'gabrielejc@ic.ufrj.br',
+    github: 'https://github.com/gabrielejandres',
+    behance: 'https://www.behance.net/gabrielejandres',
+    social: [
+      {
+        name: 'email',
+        url: 'mailto:gabrielejc@dcc.ufrj.br',
+        className: 'fa fa-envelope',
+      },
+      {
+        name: 'linkedin',
+        url: 'https://www.linkedin.com/in/gabriele-jandres-249107175/',
+        className: 'fa fa-linkedin',
+      },
+    ],
+  },
+  skills: [
+    {
+      name: 'CSS',
+      image: 'images/skills/css.png',
+      group: 'Languages',
+    },
+    {
+      name: 'HTML',
+      image: 'images/skills/html.png',
+      group: 'Languages',
+    },
+    {
+      name: 'Javascript',
+      image: 'images/skills/javascript.png',
+      group: 'Languages',
+    },
+    {
+      name: 'React JS',
+      image: 'images/skills/react.png',
+      group: 'Frameworks',
+    },
+    {
+      name: 'React Native',
+      image: 'images/skills/react.png',
+      group: 'Frameworks',
+    },
+    {
+      name: 'Angular',
+      image: 'images/skills/angular.png',
+      group: 'Frameworks',
+    },
+    {
+      name: 'Clojure',
+      image: 'images/skills/clojure.png',
+      group: 'Languages',
+    },
+    {
+      name: 'Kafka',
+      image: 'images/skills/kafka.png',
+      group: 'Tools',
+    },
+    {
+      name: 'Laravel',
+      image: 'images/skills/laravel.png',
+      group: 'Frameworks',
+    },
+    {
+      name: 'Python',
+      image: 'images/skills/python.png',
+      group: 'Languages',
+    },
+    {
+      name: 'Bootstrap',
+      image: 'images/skills/bootstrap.png',
+      group: 'Frameworks',
+    },
+    {
+      name: 'Java',
+      image: 'images/skills/java.png',
+      group: 'Languages',
+    },
+    {
+      name: 'Vue.js',
+      image: 'images/skills/vue.png',
+      group: 'Frameworks',
+    },
+    {
+      name: 'FastAPI',
+      image: 'images/skills/fastapi.png',
+      group: 'Frameworks',
+    },
+    {
+      name: 'AWS',
+      image: 'images/skills/aws.png',
+      group: 'Cloud',
+    },
+    {
+      name: 'LangGraph',
+      image: 'images/skills/langgraph.png',
+      group: 'Frameworks',
+    },
+    {
+      name: 'PHP',
+      image: 'images/skills/php.png',
+      group: 'Languages',
+    },
+    {
+      name: 'My SQL',
+      image: 'images/skills/mysql.png',
+      group: 'Databases',
+    },
+    {
+      name: 'Datomic',
+      image: 'images/skills/datomic.png',
+      group: 'Databases',
+    },
+  ],
+  portfolio: {
+    projects: [
+      {
+        title: 'EmpreendHer',
+        category: 'Web',
+        image: 'images/portfolio/web/empreendher.png',
+        url: 'https://www.behance.net/gallery/204801049/EmpreendHer',
+        descriptionKey: 'empreendher',
+        technologies: ['React JS', 'Node.js'],
+        year: '2024',
+      },
+      {
+        title: 'Queezy',
+        category: 'Web',
+        image: 'images/portfolio/web/queezy.png',
+        url: 'https://www.behance.net/gallery/140116709/Queezy',
+        descriptionKey: 'queezy',
+        technologies: ['React JS', 'Laravel', 'MySQL'],
+        year: '2023',
+      },
+      {
+        title: 'Hommy',
+        category: 'App',
+        image: 'images/portfolio/app/hommy.png',
+        url: 'https://github.com/gabrielejandres/hommy',
+        descriptionKey: 'hommyApp',
+        technologies: ['Ionic', 'Laravel', 'MySQL'],
+        year: '2023',
+      },
+      {
+        title: 'My Favorites Heroes',
+        category: 'App',
+        image: 'images/portfolio/app/my-favorite-heroes.png',
+        url: 'https://github.com/gabrielejandres/my-favorites-heroes-app',
+        descriptionKey: 'myFavoriteHeroes',
+        technologies: ['Vue.js'],
+        year: '2022',
+      },
+      {
+        title: 'nutri.me',
+        category: 'UI/UX',
+        image: 'images/portfolio/ui/nutri.png',
+        url: 'https://www.behance.net/gallery/140113727/nutrime',
+        descriptionKey: 'nutrime',
+        technologies: ['Figma'],
+        year: '2023',
+      },
+      {
+        title: 'Daily UI',
+        category: 'UI/UX',
+        image: 'images/portfolio/ui/dailyui.png',
+        url: 'https://www.behance.net/gallery/115168171/Daily-UI-001',
+        descriptionKey: 'dailyUi',
+        technologies: ['Figma'],
+        year: '2021',
+      },
+      {
+        title: 'Healthood',
+        category: 'UI/UX',
+        image: 'images/portfolio/ui/healthfood.png',
+        url: 'https://www.behance.net/gallery/115091415/Healthood',
+        descriptionKey: 'healthood',
+        technologies: ['Figma'],
+        year: '2021',
+      },
+      {
+        title: 'LP Minerv@s Digitais',
+        category: 'UI/UX',
+        image: 'images/portfolio/ui/minervas.png',
+        url: 'https://www.behance.net/gallery/204796637/Landing-Page-Minervs-Digitais',
+        descriptionKey: 'minervas',
+        technologies: ['Figma'],
+        year: '2022',
+      },
+      {
+        title: 'Hommy',
+        category: 'UI/UX',
+        image: 'images/portfolio/ui/hommy.png',
+        url: 'https://www.behance.net/gallery/115090037/Hommy',
+        descriptionKey: 'hommy',
+        technologies: ['Figma'],
+        year: '2021',
+      },
+    ],
+  },
+};
+

@@ -1,0 +1,214 @@
+{
+  "select_language": "Sélectionner la langue",
+  "header": {
+    "home": "Accueil",
+    "about": "À propos",
+    "experience": "Expérience",
+    "technologies": "Technologies",
+    "projects": "Projets",
+    "description": "Ingénieure logicielle"
+  },
+  "about": {
+    "title": "À propos de moi",
+    "bio": "Ingénieure logicielle diplômée en informatique de l’UFRJ, avec de l’expérience dans le développement de systèmes scalables et de produits centrés sur l’utilisateur, contribuant à la conception et à l’évolution de plateformes. J’évolue en tant qu’ingénieure full-stack, avec un intérêt croissant pour l’architecture et le system design. J’oriente mon travail vers la construction de produits scalables et, plus récemment, vers le développement de solutions basées sur l’IA, notamment des systèmes à base d’agents. Je m’intéresse particulièrement à l’alignement entre les décisions d’ingénierie et l’expérience utilisateur, en cherchant à équilibrer qualité technique, usabilité et impact produit.",
+    "contact": "Contact"
+  },
+  "resume": {
+    "education": {
+      "title": "Éducation",
+      "data": [
+        {
+          "school": "Université Fédérale de Rio de Janeiro",
+          "degree": "Licence en Informatique",
+          "graduated": "2019.2 - 2023.2",
+          "description": [
+            "Participation à l'entreprise junior",
+            "Participation au Hacking Help 2020 en tant que designer UX",
+            "Monitrice d'Entiers et Cryptographie",
+            "Monitrice d'Ordinateurs et Société",
+            "Monitrice d'Organisation de l'Information",
+            "Mémoire de licence: 'Redéfinir le Handoff: plus qu'un passage de relais, une collaboration continue'"
+          ]
+        },
+        {
+          "school": "Centre Fédéral d'Éducation Technologique Celso Suckow da Fonseca",
+          "degree": "Lycée intégré avec technicien en informatique",
+          "graduated": "2016 - 2018",
+          "description": [
+            "Participation à la semaine nationale de la Science et de la Technologie. Thème: La science nourrit le Brésil",
+            "Stage interne",
+            "Participation au Hacking Serra en 2018"
+          ]
+        }
+      ]
+    },
+    "work": {
+      "title": "Professionnel",
+      "data": [
+        {
+          "company": "Boston Consulting Group (BCG)",
+          "title": "Ingénieure logicielle",
+          "years": "Septembre 2025 - Actuellement",
+          "description": [
+            "Développement de fonctionnalités end-to-end (frontend et backend) avec React et FastAPI, sur plusieurs projets (outils internes, systèmes d’optimisation et solutions d’IA dans le retail)",
+            "Amélioration de la qualité et de la maintenabilité du code en intégrant le linting et le typage dans le pipeline CI/CD",
+            "Contribution à l’architecture et à la scalabilité via la modélisation de bases de données et la restructuration du code selon les principes du Domain-Driven Design (DDD)",
+            "Amélioration de l’expérience utilisateur et de la qualité produit en pilotant des évolutions UI et en contribuant aux décisions UX",
+            "Optimisation des workflows d’équipe grâce à l’amélioration des pratiques Git et des processus de gestion de projet",
+            "Évolution vers le développement en IA, avec un focus sur les systèmes basés sur des agents",
+            "Amélioration de l’onboarding via la documentation et la création d’un GPT personnalisé comme base de connaissances",
+            "Contribution à la croissance de l’équipe à travers des initiatives de recrutement et l’amélioration de la documentation interne"
+          ]
+        },
+        {
+          "company": "Nubank",
+          "title": "Ingénieure logiciel associée",
+          "years": "Janvier 2024 - Août 2025",
+          "description": [
+            "A coordonné un groupe de travail interfonctionnel centré sur l’amélioration de l’UX grâce à la validation dans l’environnement de staging. Cette initiative a abouti à une interface facile à utiliser pour la création de clients de test, réduisant ainsi considérablement la dépendance à l'ingénierie pour les tests de flux.",
+            "A dirigé le développement de bout en bout d'une fonctionnalité permettant d'ignorer les actions retardées dans les stratégies de communication.",
+            "A dirigé le développement de bout en bout d'une fonctionnalité permettant d'annuler les expériences de communication en cours.",
+            "A dirigé le développement d'une fonctionnalité au sein de la plateforme d'interactions avec les clients, permettant aux utilisateurs de visualiser les stratégies de communication directement depuis l'interface utilisateur.",
+            "A conduit des initiatives de retraitement de données à grande échelle avec Databricks, améliorant la précision des données et réduisant les problèmes opérationnels de 85 %.",
+            "A implémenté une fonctionnalité de permissions basées sur les rôles en utilisant Clojure et React, protégeant plusieurs unités commerciales et garantissant un accès sécurisé aux utilisateurs.",
+            "A développé des tableaux de bord de surveillance dans Looker et des indices de stabilité pour identifier proactivement les défaillances des services.",
+            "A assuré le rôle de liaison entre les équipes techniques et commerciales, garantissant une communication claire et une bonne coordination.",
+            "A créé une documentation standardisée, des supports d’intégration et des bonnes pratiques pour améliorer l’efficacité de l’équipe.",
+            "A accompagné des pairs, en soutenant les nouveaux membres via la documentation et des sessions de pair programming."
+          ]
+        },
+        {
+          "company": "Nubank",
+          "ignoreCompany": true,
+          "title": "Stagiaire ingénieure logiciel",
+          "years": "Janvier 2023 - Janvier 2024",
+          "description": [
+            "A développé des fonctionnalités dans des microservices en utilisant Clojure, en appliquant les concepts de la Diplomat Architecture.",
+            "A remplacé les AWS Lambdas par une intégration directe au service, centralisant le code, réduisant les coûts et simplifiant la maintenance.",
+            "A implémenté des flux de cycle de collecte asynchrones avec Kafka, améliorant l’efficacité du système.",
+            "A développé des widgets frontend pour la visualisation de l’historique des dettes clients, optimisant l’expérience de l’équipe opérationnelle et réduisant le temps d’investigation pour l’ingénierie."
+          ]
+        },
+        {
+          "company": "Bemobi",
+          "title": "Stagiaire développeuse logiciel",
+          "years": "Août 2021 - Janvier 2023",
+          "description": [
+            "A développé un système d’administration en React pour gérer le contenu des landing pages, améliorant l’expérience utilisateur, la productivité et accélérant le lancement des campagnes.",
+            "A développé des portails et landing pages React pour le secteur des télécoms, engageant les utilisateurs sans crédit ou données mobiles, augmentant l’interaction client et l’adoption des produits.",
+            "A standardisé la documentation dans Confluence et créé un modèle de README, facilitant le partage des connaissances et l’efficacité de l’intégration."
+          ]
+        },
+        {
+          "company": "CEFET",
+          "title": "Stagiaire développeuse web",
+          "years": "Février 2018 - Septembre 2018",
+          "description": [
+            "Développement frontend et backend du projet 'Namelab - Nouveaux Environnements Éducatifs' utilisant HTML, CSS, Javascript et PHP."
+          ]
+        }
+      ]
+    },
+    "extra": {
+      "title": "Extras",
+      "data": [
+        {
+          "title": "Instructrice en design UX",
+          "dispatcher": "EJCM Consultoria",
+          "date": "Octobre 2021",
+          "credential": "https://drive.google.com/file/d/1kuH_vmJvUUCdsK82TFiDAq4oi8fA1KU0/view?usp=sharing"
+        },
+        {
+          "title": "Bootcamp Design UX",
+          "dispatcher": "How Bootcamps",
+          "date": "Août 2020",
+          "credential": "https://drive.google.com/file/d/1nWzmcbc49coiKBSmqx8zxAg6Dh6YOoqG/view?usp=sharing"
+        },
+        {
+          "title": "Développement Web Front-end avec React",
+          "dispatcher": "Université de Science et Technologie de Hong Kong",
+          "date": "Juillet 2020",
+          "credential": "https://drive.google.com/file/d/13MM2HhCFgGGYRj_9JCvHKvlhS_BZTgdL/view?usp=sharing"
+        },
+        {
+          "title": "Éléments visuels du design d'interface utilisateur",
+          "dispatcher": "Institut des Arts de Californie",
+          "date": "Juillet 2020",
+          "credential": "https://drive.google.com/file/d/1CCpipAdFJvhsrw7XdEkd6_eEBnFjhCW_/view?usp=sharing"
+        },
+        {
+          "title": "Frameworks et outils Web Front-end: Bootstrap 4",
+          "dispatcher": "Université de Science et Technologie de Hong Kong",
+          "date": "Mai 2020",
+          "credential": "https://drive.google.com/file/d/1VFgMcB7rMw-dim9Yci5IbsgIUdhz4d4k/view?usp=sharing"
+        }
+      ]
+    },
+    "volunteering": {
+      "title": "Bénévolat",
+      "data": [
+        {
+          "company": "Rede Caronaê",
+          "title": "Product Designer",
+          "years": "Août 2022 - Juin 2023",
+          "description": [
+            "Recherche et prototypage pour le développement du site web du projet"
+          ]
+        },
+        {
+          "company": "Minerv@s Digitais",
+          "title": "Consultante en communication et Product Designer",
+          "years": "Avril 2022 - Décembre 2022",
+          "description": [
+            "Création de publications Instagram",
+            "Recherche et prototypage pour le développement du site web du projet"
+          ]
+        },
+        {
+          "company": "EJCM Consultoria",
+          "title": "Tech Lead",
+          "years": "Août 2020 - Novembre 2021",
+          "description": [
+            "Revue de code et assurance qualité des livrables de sprint",
+            "Gestion d'équipe agile",
+            "Gestion de l'architecture de projet",
+            "Participation à l'initiative de création du modèle d'utilisation de Git",
+            "Direction d'une initiative pour changer la pile de l'entreprise",
+            "Direction de l'initiative de tests d'utilisabilité",
+            "Direction de l'initiative axée sur le design UX. Responsable de la structuration du service de design numérique de l'entreprise"
+          ]
+        },
+        {
+          "company": "EJCM Consultoria",
+          "ignoreCompany": true,
+          "title": "Product Designer | Développeuse Frontend",
+          "years": "Mars 2020 - Août 2020",
+          "description": [
+            "Prototypage dans Figma",
+            "Développement de projets en Angular, Ionic et Laravel",
+            "Participation à l'initiative d'organisation de la formation technique 2020.2"
+          ]
+        }
+      ]
+    }
+  },
+  "technologies": {
+    "title": "Technologies"
+  },
+  "portfolio": {
+    "title": "Projets",
+    "descriptions": {
+      "empreendher": "Une plateforme conçue pour autonomiser les femmes entrepreneures grâce à des ressources, des opportunités de networking et du contenu éducatif.",
+      "queezy": "Une plateforme de quiz interactive sur les films et les séries.",
+      "hommyApp": "Une marketplace où les propriétaires de logements étudiants peuvent enregistrer leurs établissements, permettant aux universitaires de trouver le logement idéal pour améliorer leur expérience universitaire.",
+      "myFavoriteHeroes": "Une application qui permet aux utilisateurs de parcourir et sauvegarder leurs héros favoris de l'univers Marvel.",
+      "nutrime": "Une application de menus sains qui prend en compte les préférences et restrictions alimentaires de chaque personne.",
+      "dailyUi": "Premier défi de design Daily UI.",
+      "healthood": "Une application qui permet de trouver des aliments sains par catégories dans des lieux proches, en privilégiant également les établissements aux prix abordables.",
+      "minervas": "Landing page conçue pour le groupe d'extension Minerv@s Digitais de l'UFRJ.",
+      "hommy": "Design UI/UX pour la marketplace de logement étudiant Hommy."
+    }
+  }
+}
+
+

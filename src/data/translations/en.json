@@ -1,0 +1,214 @@
+{
+  "select_language": "Select Language",
+  "header": {
+    "home": "Home",
+    "about": "About",
+    "experience": "Experience",
+    "technologies": "Technologies",
+    "projects": "Projects",
+    "description": "Software Engineer"
+  },
+  "about": {
+    "title": "About me",
+    "bio": "Software Engineer with a degree in Computer Science from UFRJ, experienced in building scalable systems and user-centered products, contributing to the development and evolution of platforms. I work as a full-stack engineer, with a growing focus on architecture and system design. I have been directing my work toward building scalable products and, more recently, developing AI-driven solutions, including agent-based systems. I am particularly interested in connecting engineering decisions with user experience, always aiming to balance technical quality, usability and product impact.",
+    "contact": "Contact"
+  },
+  "resume": {
+    "education": {
+      "title": "Education",
+      "data": [
+        {
+          "school": "Federal University of Rio de Janeiro",
+          "degree": "Bachelor's Degree in Computer Science",
+          "graduated": "2019.2 - 2023.2",
+          "description": [
+            "Participation in the Junior Enterprise",
+            "Participation in Hacking Help 2020 as UX Designer",
+            "College monitor of Integers and Encryption",
+            "College monitor of Computers and Society",
+            "College monitor of Information Organization",
+            "Undergraduate thesis: 'Redefinindo o Handoff: mais do que uma passagem de bastão, uma colaboração contínua'"
+          ]
+        },
+        {
+          "school": "Federal Center for Technological Education Celso Suckow da Fonseca",
+          "degree": "High school integrated with IT technician",
+          "graduated": "2016 - 2018",
+          "description": [
+            "Participation in the national week of Science and Technology. Theme: Science Feeding Brazil",
+            "Internal internship",
+            "Participation in Hacking Serra in 2018"
+          ]
+        }
+      ]
+    },
+    "work": {
+      "title": "Professional",
+      "data": [
+        {
+          "company": "Boston Consulting Group (BCG)",
+          "title": "Software Engineer",
+          "years": "September 2025 - Now",
+          "description": [
+            "Developed end-to-end frontend and backend features using React and FastAPI, contributing to multiple projects (internal tools, optimization systems and AI solutions in retail).",
+            "Improved code quality and maintainability by introducing linting and type checking into the CI/CD pipeline.",
+            "Contributed to architecture and scalability improvements through database modeling and code restructuring aligned with Domain-Driven Design (DDD) principles.",
+            "Led UI improvements and contributed to UX decisions when needed to increase product quality.",
+            "Optimized team workflows by improving Git practices and project management processes.",
+            "Expanded my scope into AI development, working with agent-based systems.",
+            "Improved onboarding through documentation and the creation of a custom GPT as a knowledge base.",
+            "Supported team growth through recruiting initiatives and improvements to internal documentation."
+          ]
+        },
+        {
+          "company": "Nubank",
+          "title": "Associate Software Engineer",
+          "years": "January 2024 - August 2025",
+          "description": [
+            "Coordinated a cross-functional working group focused on improving UX through validation in the staging environment. The initiative resulted in a user-friendly interface for creating test customers, significantly reducing reliance on engineering for flow testing.",
+            "Led the end-to-end development of a feature enabling skip delayed actions within communication strategies.",
+            "Drove the end-to-end development of a capability allowing cancel in-progress communication experiences.",
+            "Led the development of a feature within the customer interactions platform, enabling users to view communication strategies directly from the frontend.",
+            "Led large-scale data reprocessing initiatives using Databricks, improving data accuracy and reducing operational issues by 85%.",
+            "Implemented role-based permission feature using Clojure and React, protecting multiple business units and ensuring secure access for users.",
+            "Developed monitoring dashboards in Looker and stability indexes to proactively identify service failures.",
+            "Acted as a liaison between technical and business teams, ensuring clear communication and alignment.",
+            "Created standardized documentation, onboarding materials and best practices to enhance team efficiency.",
+            "Provided peer mentoring, supporting new team members through documentation and technical pairing."
+          ]
+        },
+        {
+          "company": "Nubank",
+          "ignoreCompany": true,
+          "title": "Software engineer intern",
+          "years": "January 2023 - January 2024",
+          "description": [
+            "Built features in microservices using Clojure, applying concepts of Diplomat Architecture.",
+            "Replaced AWS Lambdas with direct integration, centralizing code, reducing costs and simplifying maintenance.",
+            "Implemented asynchronous collection cycle flows using Kafka, improving system efficiency.",
+            "Developed frontend widgets for viewing customer debt history, streamlining user experience for operations team and reducing engineering investigation time."
+          ]
+        },
+        {
+          "company": "Bemobi",
+          "title": "Software developer intern",
+          "years": "August 2021 - January 2023",
+          "description": [
+            "Developed a React admin system to streamline landing page content management, improving user experience, productivity and accelerating campaign launches.",
+            "Developed React telecom portals and landing pages to engage users without phone credit or data, increasing customer interaction and product adoption.",
+            "Standardized documentation in Confluence and created a README template, enhancing team knowledge sharing and onboarding efficiency."
+          ]
+        },
+        {
+          "company": "CEFET",
+          "title": "Web developer intern",
+          "years": "February 2018 - September 2018",
+          "description": [
+            "Frontend and backend development of the 'Namelab - New Educational Environments' project using HTML, CSS, Javascript and PHP."
+          ]
+        }
+      ]
+    },
+    "extra": {
+      "title": "Extras",
+      "data": [
+        {
+          "title": "UX Design instructor",
+          "dispatcher": "EJCM Consultoria",
+          "date": "October 2021",
+          "credential": "https://drive.google.com/file/d/1kuH_vmJvUUCdsK82TFiDAq4oi8fA1KU0/view?usp=sharing"
+        },
+        {
+          "title": "Bootcamp UX Design",
+          "dispatcher": "How Bootcamps",
+          "date": "August 2020",
+          "credential": "https://drive.google.com/file/d/1nWzmcbc49coiKBSmqx8zxAg6Dh6YOoqG/view?usp=sharing"
+        },
+        {
+          "title": "Front-end Web Development with React",
+          "dispatcher": "The Hong Kong University of Science and Technology",
+          "date": "July 2020",
+          "credential": "https://drive.google.com/file/d/13MM2HhCFgGGYRj_9JCvHKvlhS_BZTgdL/view?usp=sharing"
+        },
+        {
+          "title": "Visual Elements of User Interface Design",
+          "dispatcher": "California Institute of the Arts",
+          "date": "July 2020",
+          "credential": "https://drive.google.com/file/d/1CCpipAdFJvhsrw7XdEkd6_eEBnFjhCW_/view?usp=sharing"
+        },
+        {
+          "title": "Front-end Web Frameworks and Tools: Bootstrap 4",
+          "dispatcher": "The Hong Kong University of Science and Technology",
+          "date": "May 2020",
+          "credential": "https://drive.google.com/file/d/1VFgMcB7rMw-dim9Yci5IbsgIUdhz4d4k/view?usp=sharing"
+        }
+      ]
+    },
+    "volunteering": {
+      "title": "Volunteering",
+      "data": [
+        {
+          "company": "Rede Caronaê",
+          "title": "Product Designer",
+          "years": "August 2022 - June 2023",
+          "description": [
+            "Research and prototyping to the development of the project website"
+          ]
+        },
+        {
+          "company": "Minerv@s Digitais",
+          "title": "Communication consultant and Product Designer",
+          "years": "April 2022 - December 2022",
+          "description": [
+            "Creation of Instagram posts",
+            "Research and prototyping to the development of the project website"
+          ]
+        },
+        {
+          "company": "EJCM Consultoria",
+          "title": "Tech Lead",
+          "years": "August 2020 - November 2021",
+          "description": [
+            "Code review and quality assurance of sprint deliverables",
+            "Agile team management",
+            "Project architecture management",
+            "Participation in the initiative to create the Git usage pattern",
+            "Leadership of an initiative to change the company's stack",
+            "Leadership of the usability tests initiative",
+            "Leadership of the initiative focused on UX Design. Responsible for structuring the company's digital design service"
+          ]
+        },
+        {
+          "company": "EJCM Consultoria",
+          "ignoreCompany": true,
+          "title": "Product Designer | Frontend developer",
+          "years": "March 2020 - August 2020",
+          "description": [
+            "Prototyping in Figma",
+            "Project development in Angular, Ionic and Laravel",
+            "Participation in the initiative for 2020.2 technical training organization"
+          ]
+        }
+      ]
+    }
+  },
+  "technologies": {
+    "title": "Technologies"
+  },
+  "portfolio": {
+    "title": "Projects",
+    "descriptions": {
+      "empreendher": "A platform designed to empower women entrepreneurs with resources, networking opportunities and educational content.",
+      "queezy": "An interactive quiz platform about movies and series.",
+      "hommyApp": "A marketplace where owners of student housing can register their establishments, allowing university students to find the ideal housing to improve their university experience.",
+      "myFavoriteHeroes": "An app that allows users to browse and save their favorite heroes from the Marvel universe.",
+      "nutrime": "An app for healthy menus that takes into account the dietary preferences and restrictions of each person.",
+      "dailyUi": "First daily UI design challenge.",
+      "healthood": "An app that allows you to find healthy foods from specific categories in locations near you, also prioritizing places with affordable prices.",
+      "minervas": "Landing page designed for the Minerv@s Digitais extension group at UFRJ.",
+      "hommy": "UI/UX design for the Hommy student housing marketplace."
+    }
+  }
+}
+
+
