@@ -5,8 +5,7 @@ export const portfolioData: PortfolioData = {
     name: 'Gabriele Jandres',
     image: 'profile.png',
     email: 'gabrielejc@ic.ufrj.br',
-    github: 'https://github.com/gabrielejandres',
-    behance: 'https://www.behance.net/gabrielejandres',
+    linkedin: 'https://www.linkedin.com/in/gabriele-jandres/',
     social: [
       {
         name: 'email',
@@ -18,6 +17,11 @@ export const portfolioData: PortfolioData = {
         url: 'https://www.linkedin.com/in/gabriele-jandres-249107175/',
         className: 'fa fa-linkedin',
       },
+      {
+        name: 'github',
+        url: 'https://github.com/gabrielejandres',
+        className: 'fa fa-github',
+      }
     ],
   },
   skills: [

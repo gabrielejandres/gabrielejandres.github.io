@@ -8,8 +8,7 @@ export interface MainInfo {
   name: string;
   image: string;
   email: string;
-  github: string;
-  behance: string;
+  linkedin: string;
   social: SocialLink[];
 }
 

@@ -26,12 +26,12 @@ export const Hero = () => {
 
             <div className={styles.cta}>
               <a
-                href={portfolioData.main.github}
+                href={portfolioData.main.linkedin}
                 target="_blank"
                 rel="noopener noreferrer"
                 className={styles.primaryButton}
               >
-                GitHub
+                Linkedin
               </a>
               <a
                 href={`mailto:${portfolioData.main.email}`}
